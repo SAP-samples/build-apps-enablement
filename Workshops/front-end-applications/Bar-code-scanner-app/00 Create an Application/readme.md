@@ -1,4 +1,4 @@
-# Create an AppGyver Project
+# Create a Build App Project.
 
 
  1. Within the Build or application development lobby, click <b>Create</b> and then select <b><i>Build an Application</i></b>.
