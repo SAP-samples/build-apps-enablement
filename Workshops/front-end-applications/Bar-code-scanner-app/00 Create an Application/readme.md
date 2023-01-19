@@ -11,4 +11,4 @@
 
 
 Next Step:
-<a href="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/blob/main/01%20App%20Interface/README.md"> 01 App Interface</a>
+<a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/01%20App%20Interface/README.md"> 01 App Interface</a>
