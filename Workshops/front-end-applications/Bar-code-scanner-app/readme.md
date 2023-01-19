@@ -12,13 +12,13 @@ All applications are created, edited, and managed within what we call a project,
 
 <a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/01%20App%20Interface/README.md"> 01 App Interface</a>
 
-<a href="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/blob/main/02%20Data%20Conenction/Readme.md"> 02 Data Connection</a>
+<a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/02%20Data%20Conenction/Readme.md"> 02 Data Connection</a>
 
-<a href="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/blob/main/03%20Create%20a%20Data%20Variable/readme.md">03 Create Data Variable</a>
+<a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/03%20Create%20a%20Data%20Variable/readme.md">03 Create Data Variable</a>
 
 <a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/04%20Create%20Logic/Readme.md">04 Create Logic</a>
 
-<a href="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/tree/main/05%20Add%20New%20Component"> 05 Add New Component</a>
+<a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/05%20Add%20New%20Component/Readme.md"> 05 Add New Component</a>
 
 <a href="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/blob/main/06%20Preview%20the%20App/Readme.md"> 06 Preview the App</a>
 
