@@ -10,7 +10,7 @@ All applications are created, edited, and managed within what we call a project,
 
 <a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/00%20Create%20an%20Application/readme.md"> 00 Create an AppGyver Project</a>
 
-<a href="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/blob/main/01%20App%20Interface/README.md"> 01 App Interface</a>
+<a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/01%20App%20Interface/README.md"> 01 App Interface</a>
 
 <a href="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/blob/main/02%20Data%20Conenction/Readme.md"> 02 Data Connection</a>
 
