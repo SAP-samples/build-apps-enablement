@@ -8,7 +8,6 @@ In this exercise you will learn how to create a no-code application using the SA
 
 All applications are created, edited, and managed within what we call a project, with one application created per project. Projects, and their related applications, are not automatically saved in this service, so care should be taken before closing a browser.
 
-<a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/00%20Create%20an%20Application/readme.md"> 00 Create an AppGyver Project</a>
 
 <a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/01%20App%20Interface/README.md"> 01 App Interface</a>
 
@@ -20,7 +19,7 @@ All applications are created, edited, and managed within what we call a project,
 
 <a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/05%20Add%20New%20Component/Readme.md"> 05 Add New Component</a>
 
-<a href="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/blob/main/06%20Preview%20the%20App/Readme.md"> 06 Preview the App</a>
+<a href="https://github.com/SAP-samples/build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/06%20Preview%20the%20App/Readme.md"> 06 Preview the App</a>
 
 
 

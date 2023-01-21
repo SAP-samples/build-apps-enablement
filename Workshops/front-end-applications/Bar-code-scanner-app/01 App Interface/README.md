@@ -21,4 +21,4 @@ Previous Step: <a href="https://github.com/SAP-samples/sap-build-apps/blob/main/
   ![](images/5%20button%20label%20change.png)
 
 
-Next Step: <a href="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/blob/main/02%20Data%20Conenction/Readme.md"> 02 Data Connection</a>
+Next Step: <a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/02%20Data%20Conenction/Readme.md"> 02 Data Connection</a>
