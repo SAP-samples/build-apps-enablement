@@ -29,17 +29,17 @@ Previous Step : <a href="https://github.com/SAP-samples/build-apps/blob/main/Wor
 
 
 
-9.{Optional} Or you can simply enter this formula : <pre> "Energy(kJ per 100g) : "+data.OpenFoodFacts1.product.nutriments.energy_100g
+9. {Optional} Or you can simply enter this formula : <pre> "Energy(kJ per 100g) : "+data.OpenFoodFacts1.product.nutriments.energy_100g
 </pre>
 
 &emsp;&emsp;click on Save
-![](images)
-<img src="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/blob/main/01%20App%20Interface/images/Screenshot%202022-09-14%20at%2012.20.47.png" alt="enter formula">
+![](images/Screenshot%202022-09-14%20at%2012.20.47.png)
 
-10. Click on <b>Save</b> to save the changes made to the application.
 
-<img src="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/blob/main/01%20App%20Interface/images/Screenshot%202022-09-14%20at%2012.23.03.png" alt="Save">
+10. Click on <b>Save</b> to save the changes made to the application.<br><br>
+![](images/Screenshot%202022-09-14%20at%2012.23.03.png)
+
 
 Now it's time to see how your app works!!
 
-Next Step: <a href="https://github.com/KanishkaRaghuraman/Bar-Code-Scanner-App/blob/main/06%20Preview%20the%20App/Readme.md"> 06 Preview App</a>.
+Next Step: <a href="https://github.com/SAP-samples/build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/06%20Preview%20the%20App/Readme.md"> 06 Preview App</a>.
