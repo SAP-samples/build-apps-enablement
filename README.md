@@ -1,36 +1,39 @@
-# SAP-samples/repository
-This default template for SAP Samples repositories includes files for README, LICENSE, and .reuse/dep5. All repositories on github.com/SAP-samples will be created based on this template.
+# Enablement for SAP Build Apps
 
-# Containing Files
 
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The .reuse/dep5 file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the .reuse/dep5 in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
-# [Title]
-<!-- Please include descriptive title -->
-
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
 
 ## Description
-<!-- Please include SEO-friendly description -->
+
+Welome to Build Apps Enablement. This repository is a collection of different solution to build applications using SAP Build Apps.
+
+- <a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/Workshops/front-end-applications/readme.md"> Front-End Applications</a>
+- <a href=""> Back-End Applications (Visual Cloud Functions)</a>
+- <a href=""> SAP Build Appathons</a>
+
 
 ## Requirements
 
+You need subscription of SAP Build Apps in SAP Business Technology Platform to try out all solutions in this repository. More informations on <a href="https://www.sap.com/products/technology-platform/no-code-app-builder.html">SAP Build Apps.</a>
+
+You can also use the <a href="https://appgyver.com/community">Commuinity Edition</a> with limitied capabilities for the front-end applications only.
+
+
 ## Download and Installation
 
-## Known Issues
-<!-- You may simply state "No known issues. -->
+You can preview the applications you build on your mobile devices using the Preview app. 
+
+<b>Build Apps Preview</b><br>
+- iOS : <a href="">TBA</a><br>
+- Andriod : <a href="">TBA</a>
+
+<b> AppGyver Preview (the community Edition)</b>
+- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjw7CM7N_8AhU4SfEDHbGfDcoQFnoECBEQAQ&url=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fsap-appgyver-preview%2Fid1585856868&usg=AOvVaw2xhKmUbyAd_HiGkTg_Bq68">iOS </a>
+- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjw7CM7N_8AhU4SfEDHbGfDcoQFnoECA4QAQ&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.sap.appgyver.preview.release%26hl%3Den%26gl%3DUS&usg=AOvVaw1qwcHnlUrPWegLNEzr2zLy"> Andriod </a>
+
+
 
 ## How to obtain support
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
+[Create an issue](https://github.com/SAP-samples/build-apps-enablement/issues) in this repository if you find a bug or have questions about the content.
  
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
