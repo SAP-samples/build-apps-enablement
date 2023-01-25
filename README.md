@@ -4,7 +4,7 @@
 
 ## Description
 
-Welome to Build Apps Enablement. This repository is a collection of different solution to build applications using SAP Build Apps.
+Welome to Build Apps Enablement. This repository is a collection of different solutions to build applications using SAP Build Apps.
 
 - <a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/Workshops/front-end-applications/readme.md"> Front-End Applications</a>
 - <a href=""> Back-End Applications (Visual Cloud Functions)</a>
