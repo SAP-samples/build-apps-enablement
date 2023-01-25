@@ -13,7 +13,7 @@ Welome to Build Apps Enablement. This repository is a collection of different so
 
 ## Requirements
 
-You need subscription of SAP Build Apps in SAP Business Technology Platform to try out all solutions in this repository. More informations on <a href="https://www.sap.com/products/technology-platform/no-code-app-builder.html">SAP Build Apps.</a>
+You need subscription of SAP Build Apps in SAP Business Technology Platform to try out all solutions in this repository. More information on <a href="https://www.sap.com/products/technology-platform/no-code-app-builder.html">SAP Build Apps.</a>
 
 You can also use the <a href="https://appgyver.com/community">Commuinity Edition</a> with limitied capabilities for the front-end applications only.
 
