@@ -1,4 +1,3 @@
-Previous Step: <a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/00%20Create%20an%20Application/readme.md">00 Create an Application</a>
 
 # Edit App Interface
 
