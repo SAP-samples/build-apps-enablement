@@ -9,4 +9,9 @@ In this exercise you will learn how to create a no-code application using the SA
 
 All applications are created, edited, and managed within what we call a project, with one application created per project. Projects, and their related applications, are not automatically saved in this service, so care should be taken before closing a browser.
 
+This application will have three stages:
+
+01 DATA CONNECTION
+02 LOGIC BUILDING
+03 UI BUILDING
 
