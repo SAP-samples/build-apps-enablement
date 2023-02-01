@@ -2,7 +2,7 @@
 
 A step-by-step guide to create Barcode scanner app using SAP Build Apps
 
-In this exercise you will learn how to create a no-code application using the SAP ‘AppGyver’ Composer tool on SAP BTP. The application you create will enable you to scan a barcode on a smartphone and retrieve information from a public API. To do this, you will need to download the ‘AppGyver’ Preview app (available through iTunes and Google Play store) and sign up for an account using the same email address that your SAP BTP account uses.
+In this exercise you will learn how to create a no-code application using the SAP Build Apps tool on SAP BTP. The application you create will enable you to scan a barcode on a smartphone and retrieve information from a public API. To do this, you will need to download the 'SAP Build Apps Preview' app/‘AppGyver Preview' app (available through AppStore and Google Play store) and sign up for an account using the same email address that your SAP BTP account uses.
 
 ![openfoodfacts](images/OpenFoodFactsDiagram.png)
 
