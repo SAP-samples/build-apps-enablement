@@ -2,7 +2,7 @@
 
 A step-by-step guide to create Barcode scanner app using SAP Build Apps
 
-In this exercise you will learn how to create a no-code application using the SAP Build Apps tool on SAP BTP. The application you create will enable you to scan a barcode on a smartphone and retrieve information from a public API. To do this, you will need to download the 'SAP Build Apps Preview' app/‘AppGyver Preview' app (available through AppStore and Google Play store) and sign up for an account using the same email address that your SAP BTP account uses.
+In this exercise you will learn how to create a no-code application using the SAP Build Apps tool on SAP BTP. The application you create will enable you to scan a barcode on a smartphone and retrieve information from a public API. To do this, you will need to download the 'SAP Build Apps Preview' app(available through AppStore and Google Play store) and sign up for an account using the same email address that your SAP BTP account uses.
 
 ![openfoodfacts](images/OpenFoodFactsDiagram.png)
 
@@ -20,6 +20,8 @@ All applications are created, edited, and managed within what we call a project,
 <a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/05%20Add%20New%20Component/Readme.md"> 05 Add New Component</a>
 
 <a href="https://github.com/SAP-samples/build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/06%20Preview%20the%20App/Readme.md"> 06 Preview the App</a>
+
+<a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/07%20Diet%20Tracker%20Extension/readme.md"> 07 Diet Tracker App Extension</a>
 
 
 
