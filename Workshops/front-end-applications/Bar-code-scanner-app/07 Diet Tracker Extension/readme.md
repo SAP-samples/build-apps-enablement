@@ -1,3 +1,5 @@
+Previews Step : <a href="https://github.com/SAP-samples/build-apps/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/06%20Preview%20the%20App/Readme.md"> 06 Preview the App</a>
+
 # Diet Tracker Extesnsion (Optional)
 
 Now, as an optional step we can extend your barcord scanner app to a diet tracker by exploring on-device storage capabilities of Build Apps.
