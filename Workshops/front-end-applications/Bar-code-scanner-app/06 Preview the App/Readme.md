@@ -38,3 +38,5 @@ if you do not have a Snack with Barcode nearby, you can scan the below bardcode 
    Congrats on building your first <i>no-code</i> app.
    ![](images/IMG_7909.jpg)
  
+
+<b>Option step : <a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/Workshops/front-end-applications/Bar-code-scanner-app/07%20Diet%20Tracker%20Extension/readme.md">Diet tracker Extenstion</a>
