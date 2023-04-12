@@ -5,7 +5,7 @@
   1. Now click on the <b> DATA </b> tab on the top to open the Data connector. In Data connector you can connect your application to different data sources.<br><br>
   ![](images/1%20Data%20tab.png)
 
-  2. Now under “<b>AppGyver Classic data entities</b>” click on "<b>CREATE DATA ENTITY</b>" and select “<b>Rest API direct integration</b>”.<br><br>
+  2. Now under “<b>Build Apps Classic data entities</b>” click on "<b>CREATE DATA ENTITY</b>" and select “<b>Rest API direct integration</b>”.<br><br>
   ![](images/2%20Data%20entity.png)
   
   3. Now configure the resource with the following details:<br>
