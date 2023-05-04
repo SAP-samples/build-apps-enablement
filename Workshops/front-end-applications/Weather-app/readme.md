@@ -19,7 +19,7 @@ All applications are created, edited, and managed within what we call a project,
 
 This application will have three stages:<br>
 
-- <a href=" "><b>01 DATA CONNECTION</a></b><br>
+- <a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/Workshops/front-end-applications/Weather-app/%2001%20DATA%20CONNECTION/readme.md"><b>01 DATA CONNECTION</a></b><br>
 - <a href=" "><b>02 LOGIC BUILDING</a></b><br>
 - <a href=" "><b>03 UI BUILDING</a></b><br>
 
