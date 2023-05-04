@@ -27,7 +27,7 @@ Now enter the following values in the Data configurator.<br>
 <b>Key</b>         : appid<br>
 <b>Value type</b>  : Text<br>
 <b>Is Static</b>  : On<br>
-<b>Value</b>      : <i>your api key</i><br><br>
+<b>Value</b>      : <i><>your api key<> </i><br><br>
 ![](images/Screenshot%202023-02-07%20at%2012.02.07.png)
 
 
@@ -71,8 +71,9 @@ Click on <b>RUN TEST</b><br><br>
 12. The Call response should be <b> STATUS: OK</b>.<br>
 Click on <b> SET SCHEMA FROM RESPONSE</b>.
 <br><br>
-If you are not getting STATUS OK please review the steps once again.<br><br>
+If you are not getting STATUS OK please review from step 4 again.<br><br>
 ![](images/Screenshot%202023-02-07%20at%2012.45.57.png)
 
-13. 
+13. Click on <b> SAVE DATA ENTITY</b>.
+![](images/Screenshot%202023-05-04%20at%2014.46.15.png)
 

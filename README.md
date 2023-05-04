@@ -23,12 +23,9 @@ You can also use the <a href="https://appgyver.com/community">Commuinity Edition
 You can preview the applications you build on your mobile devices using the Preview app. 
 
 <b>Build Apps Preview</b><br>
-- iOS : <a href="">TBA</a><br>
-- Andriod : <a href="">TBA</a>
+- iOS : <a href="https://apps.apple.com/us/app/sap-build-apps-preview/id1585856868">iOS</a><br>
+- Andriod : <a href="https://play.google.com/store/apps/details?id=com.sap.appgyver.preview.release&hl=en&gl=US">Android</a>
 
-<b> AppGyver Preview (the community Edition)</b>
-- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjw7CM7N_8AhU4SfEDHbGfDcoQFnoECBEQAQ&url=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fsap-appgyver-preview%2Fid1585856868&usg=AOvVaw2xhKmUbyAd_HiGkTg_Bq68">iOS </a>
-- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjw7CM7N_8AhU4SfEDHbGfDcoQFnoECA4QAQ&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.sap.appgyver.preview.release%26hl%3Den%26gl%3DUS&usg=AOvVaw1qwcHnlUrPWegLNEzr2zLy"> Andriod </a>
 
 
 
