@@ -75,5 +75,5 @@ If you are not getting STATUS OK please review from step 4 again.<br><br>
 ![](images/Screenshot%202023-02-07%20at%2012.45.57.png)
 
 13. Click on <b> SAVE DATA ENTITY</b>.
-![](images/Screenshot%202023-05-04%20at%2014.46.15.png)
+![](images/Screenshot%202023-05-04%20at%2015.24.38.png)
 
