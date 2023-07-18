@@ -58,6 +58,7 @@ Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
 - Select Data Variables.<br>
 - Add Data Variable<br>
 <br>
+
 ![](Images/14.png)
 
 
