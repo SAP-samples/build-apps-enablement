@@ -1,5 +1,5 @@
 
-# Create Logic
+# Logic for Open Food facts
 
 1. Now select the Button component and then click anywhere on the Grey tab below to add a logic for the button.<br><Br>
 ![](images/1.png)
@@ -38,8 +38,11 @@ Under <i>select node output</i>, select <b>Record</b> <br>
 Now click on <b>SAVE</b>.<br><br>
 ![](images/11%20Get%20Record.png)
 
+# Logic for On-Device storage
 
 
+1. Add another button to your canvas and open the logic composer for the button.<br><br>
+![](images/Screenshot%202023-07-19%20at%2000.58.44.png)
 
 
 
