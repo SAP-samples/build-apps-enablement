@@ -60,6 +60,7 @@ Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
 <br>
 ![](Images/14.png)
 
+
 - Under variable type select single data record. 
 - Below in the logic composer, select all the logic and remove them by using either backspace key or delete key on your keyboard.<br><br>
 ![](Images/15.png)
