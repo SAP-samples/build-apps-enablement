@@ -7,34 +7,33 @@
 ## Adding OpenFoodFacts.
 
 1. Click on Data Tab to add the Data integrations.<br><br>
-![data tab](images/Screenshot%202023-07-18%20at%2012.02.02.png)
+![data tab](Images/1.png)
 
 2. Luckily, the Build App developers has made this open food facts integration as template. <br>
 Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
-![](images/Screenshot%202023-07-18%20at%2013.04.00.png)
+![](Images/2.png)
 
 3. Select OpenFoodFacts data integration here.
 <br><br>
-![](images/Screenshot%202023-07-18%20at%2013.04.34.png)
+![](Images/3.png)
 
-4. Install it.
-
-![](images/Screenshot%202023-07-18%20at%2013.04.54.png)
+4. Install it.<br><br>
+![](Images/4.png)
 
 5. Now select the integration.<br>
-   open <b>Get Record</b>.<br>
+   Open <b>Get Record</b>.<br>
    Select barcode <b>URL Parameter</b> and change the value type to <b>Number</b>.<br><br>
-![](images/Screenshot%202023-07-18%20at%2013.08.38.png)
+![](Images/6.png)
 
 
 6. Change the binding type to Static number and enter the following value <i>737628064502</i> and run the test.<br><br>
-![](images/Screenshot%202023-07-18%20at%2013.11.57.png)
+![](Images/7.png)
 
 7. SET SCHEMA from the response. 
-![](images/Screenshot%202023-07-18%20at%2013.14.13.png)
+![](Images/8.png)
 
 8. Click on SAVE DATA ENTITY.
-![](images/Screenshot%202023-07-18%20at%2013.14.47.png).
+![](Images/9.png).
 
 
 
