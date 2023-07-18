@@ -56,4 +56,11 @@ Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
 
 ## Create Data Variables. 
 
-![](images/Screenshot%202023-07-18%20at%2014.31.51.png)
+- Open your UI Canvas. <br>
+- Switch to variables view<br>
+- Select Data Variables.<br>
+- Add Data Variable<br>
+
+![](images/Screenshot%202023-07-18%20at%2014.40.56.png)
+
+
