@@ -47,7 +47,7 @@ Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
 ![](Images/11.png)
 
 
-3. Add two NEW Fields and name them as <b>energy</b> and Food respectively.<br> You can also add more fields if you want to track more facts about the food.(Ex, Sugar levels, protiens etc.,) <br><br>
+3. Add two NEW Fields and name them as <b>Energy</b> and <b>Food</b> respectively.<br> You can also add more fields if you want to track more facts about the food.(Ex, Sugar levels, protiens etc.,) <br><br>
 ![](Images/13.png)
 
 
