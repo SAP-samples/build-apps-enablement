@@ -42,7 +42,12 @@ Now click on <b>SAVE</b>.<br><br>
 
 
 1. Add another button to your canvas and open the logic composer for the button.<br><br>
-![](images/Screenshot%202023-07-19%20at%2000.58.44.png)
+![](images/21.png)
+
+2. Add <b>Create record</b> logic to composer and connect it with Component tap node.<br>
+under the properties we configure where to create the data. Reveiw the Resource name once if it is your On-Device storage.<br>
+Open the binding menu.<br><br>
+![](images/23.png)
 
 
 
