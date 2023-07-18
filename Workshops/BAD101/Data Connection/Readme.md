@@ -41,16 +41,16 @@ Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
 ## Adding On-Device storage.
 
 1. Click on <b>CREATE DATA ENTITY</b>.<br><br>
-![](images/Screenshot%202023-07-18%20at%2014.28.06.png)
+![](Images/10.png)
 
 2. Give a name to your Data Enity and click on ADD. <br><br>
-![](images/Screenshot%202023-07-18%20at%2014.28.40.png)
+![](Images/11.png)
 
 3. Select the <b>ID</b> under fields and rename it to <b>food</b>. 
-![](images/Screenshot%202023-07-18%20at%2014.30.36.png)
+![](Images/12.png)
 
 4. Add another field and name it as <b>energy</b>.<br> You can also more fields if you want to track more facts about the food.(Ex, Sugar levels, protiens etc.,) <br><br>
-![](images/Screenshot%202023-07-18%20at%2014.31.51.png)
+![](Images/13.png)
 
 
 ## Create Data Variables. 
@@ -59,7 +59,11 @@ Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
 - Switch to variables view<br>
 - Select Data Variables.<br>
 - Add Data Variable<br>
+<br>
+![](Images/14.png)
 
-![](images/Screenshot%202023-07-18%20at%2014.40.56.png)
+- Under variable type select single data record. 
+- Below in the logic composer, select all the logic and remove them by using either backspace key or delete key on your keyboard.<br><br>
+![](Images/15.png)
 
 
