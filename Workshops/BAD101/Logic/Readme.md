@@ -44,6 +44,6 @@ Next Step: <a href="https://github.com/SAP-samples/sap-build-apps/blob/main/Work
 
 
 
-ßßß
+
 
 
