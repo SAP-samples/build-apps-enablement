@@ -15,7 +15,7 @@ Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
 
 3. Select OpenFoodFacts data integration here.
 <br><br>
-![p](images/Screenshot%202023-07-18%20at%2013.04.34.png)
+![](images/Screenshot%202023-07-18%20at%2013.04.34.png)
 
 4. Install it.
 
