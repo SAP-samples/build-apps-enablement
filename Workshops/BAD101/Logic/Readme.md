@@ -42,16 +42,16 @@ Now click on <b>SAVE</b>.<br><br>
 
 
 1. Add another button to your canvas and open the logic composer for the button.<br><br>
-![](images/21.png)
+![](Images/21.png)
 
 2. Add <b>Create record</b> logic to composer and connect it with Component tap node.<br>
 under the properties we configure where to create the data. Reveiw the Resource name once if it is your On-Device storage.<br>
 Open the binding menu.<br><br>
-![](images/23.png)
+![](Images/23.png)
 
 3. In the binding menu select <b>Object with properties</b>, and you can see the fields that will be tracked. bind the appropriate values. <br>
 For example, open the binding menu for the Food value and open the formula.<br><br>
-![](images/24.png)
+![](Images/24.png)
 
 4. In the previous logic for openfoodfacts, we saved the response to the data variable. We need to save the response from the openfoodfacts to the tracker so, we will now call the data variable using the formula bar. 
 <br><br>
@@ -64,7 +64,7 @@ enter the formula directly.
 
 Observing the formula you will understand the nomeclature of the formula. The above formula instructs to call data variable openfoodfacts' product name from the product information. you can also start typing the formula and you will get suggestions which will be helpful.
 
-![](images/25.png)
+![](Images/25.png)
 
 
 {Optional}
@@ -72,7 +72,7 @@ Observing the formula you will understand the nomeclature of the formula. The ab
 As a preference I would also want to save the brand of the food, so I will add the below formula
 <pre>data.OpenFoodFacts1.product.brands+" "+data.OpenFoodFacts1.product.product_name</pre>
 you can also preview how the result will look like below. <br><br>
-![](images/26.png)
+![](Images/26.png)
 
 5. Similarily open the binding menu for the energy and use the below formula. 
 
@@ -82,8 +82,8 @@ For Kcal
 For kJ
 <pre>data.OpenFoodFacts1.product.nutriments.energy+" kJ"</pre>
 
-![](images/27.png)
-![](images/28.png)
+![](Images/27.png)
+![](Images/28.png)
 
 6. If you have more fields, like fat, sugar etc.,
 you can use <i>data.OpenFoodFacts1.product.nutriments.</i> and select the values you would like to use. 
