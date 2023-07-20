@@ -22,7 +22,7 @@ Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
 
 5. Open the Data Connection.<br>
    Click on <b>GET RECORD</b> and select the <b>TEST</b> tab.<br>
-   In the input field, press <b>Space Bar</b> and </b>Backspace</b> immediately. <br>
+   In the input field, press <b>Space Bar</b> and <b>Backspace</b> immediately. <br>
    Now you will be able to run the test.
 ![](Images/Screenshot%202023-07-20%20at%2011.40.26.png) 
 
@@ -30,7 +30,7 @@ Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
 ![](Images/8.png)
 
 8. Click on SAVE DATA ENTITY.
-![](Images/9.png).
+![](Images/9.png)
 
 
 
