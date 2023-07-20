@@ -20,14 +20,11 @@ Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
 4. Install it.<br><br>
 ![](Images/4.png)
 
-5. Now select the integration.<br>
-   Open <b>Get Record</b>.<br>
-   Select barcode <b>URL Parameter</b> and change the value type to <b>Number</b>.<br><br>
-![](Images/6.png)
-
-
-6. Change the binding type to Static number and enter the following value <i>737628064502</i> and run the test.<br><br>
-![](Images/7.png)
+5. Open the Data Connection.<br>
+   Click on <b>GET RECORD</b> and select the <b>TEST</b> tab.<br>
+   In the input field, press <b>Space Bar</b> and </b>Backspace</b> immediately. <br>
+   Now you will be able to run the test.
+![](Images/Screenshot%202023-07-20%20at%2011.40.26.png) 
 
 7. SET SCHEMA from the response. 
 ![](Images/8.png)
@@ -47,8 +44,8 @@ Click on <b>CREATE DATA ENTITY</b> and select <b>Marketplace search</b>.<br><br>
 ![](Images/11.png)
 
 
-3. Add two NEW Fields and name them as <b>Energy</b> and <b>Food</b> respectively.<br> You can also add more fields if you want to track more facts about the food.(Ex, Sugar levels, protiens etc.,) <br><br>
-![](Images/13.png)
+3. Add two NEW Fields, <b>Energy</b> as Number  and <b>Food</b> as Text respectively.<br> You can also add more fields if you want to track more facts about the food.(Ex, Sugar levels, protiens etc.,) <br><br>
+![](Images/Screenshot%202023-07-20%20at%2011.36.31.png)
 
 
 ## Create Data Variables. 
