@@ -77,13 +77,13 @@ you can also preview how the result will look like below. <br><br>
 5. Similarily open the binding menu for the energy and use the below formula. 
 
 For Kcal 
-<pre>data.OpenFoodFacts1.product.nutriments["energy-kcal_value"]+" kcal"</pre>
+<pre>data.OpenFoodFacts1.product.nutriments["energy-kcal_value"]</pre>
 
 For kJ
-<pre>data.OpenFoodFacts1.product.nutriments.energy+" kJ"</pre>
+<pre>data.OpenFoodFacts1.product.nutriments.energy</pre>
 
 ![](Images/27.png)
-![](Images/28.png)
+
 
 6. If you have more fields, like fat, sugar etc.,
 you can use <i>data.OpenFoodFacts1.product.nutriments.</i> and select the values you would like to use. 
