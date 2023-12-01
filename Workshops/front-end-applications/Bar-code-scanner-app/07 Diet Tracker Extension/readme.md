@@ -54,6 +54,11 @@ Click on save.<br><br>
 14. Add a <b> Card</b> component to your UI.<br><br>
 ![](images/ss14.png)
 
+15. Switch to Variables View. <br>
+Select <b>Data Variable</b> and add new Data variable.
+Now switch back to <b>VIEW</b>.<br><br>
+![](images/datavar'.png)
+
 15. Change the title of the card to "<i> Tap to view your Diet</i>" and bind the content value with the following formula. <pre>SUM_BY_KEY(data.tracker1, "energy")+" KJ"</pre>
 ![](images/ss15.png)
 
