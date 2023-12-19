@@ -14,7 +14,6 @@
 
  4. Drag and drop a button component to the canvas.<br><br>
  ![](images/4%20Drag%20and%20drop%20button.png)
-
  
   5. You can change the label of the button on the properties tab. Change the label to “<b><i>Scan BarCode</b></i>”.<br><br>
   ![](images/5%20button%20label%20change.png)
