@@ -56,7 +56,7 @@ This tutorial is to Add Product to cart
 <br><br>
 
 ![](images/Screenshot%202024-01-21%20at%2016.18.07.png)
-<br><br><br>
+<br>
 
 - Check the app variable <b>CurrentUserSettings</b> as <b>object</b> data type.
 
