@@ -261,4 +261,4 @@ Additionally, A toast component can be used  to know if there any error while re
 - here select the the variable <i>CurrentItemIndex</i> under <b>Item</b> and bind the following formula under Assigned value. <pre>pageVars.Item.ItemCount-1</pre> 
 ![](images/18.png)
 
-10. 
+10. s
