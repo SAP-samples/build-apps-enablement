@@ -136,14 +136,9 @@ Create an On-device data entity and name it as <b>MaterialList</b>
    <b><i>id, EAN Product, SalesOrg and ProductDescription</b></i><br><br>
    ![](images/Screenshot%202024-01-21%20at%2017.02.51.png)
 
-- Create a data variable and rename it to <b>Material_List</b> and clear the logic for the data variable.
-![](images/Screenshot%202024-01-21%20at%2017.04.41.png)
+Similariy create <b>OrderItem</b> and <b>ItemVariable</b> On-device Data entity.
 
-
-Similariy create OrderItem and ItemVariable On-device Data entity.
-For OrderItem create the following fields. 
-
-<table>
+For <b>OrderItem</b> create the following fields. <table> 
   <tr>
     <th>Field Name</th>
     <th>Field type</th>
@@ -206,7 +201,10 @@ For OrderItem create the following fields.
 </tr>
 </table>
 
+for <b>ItemVariable</b>, creat two text fields <i>Material</i> and <i>RequestedQuantity</i>.
 
+Now Create a data variables for the on-device Data entities, MaterialList, Ordeitem1, ItemVariable1 and remove the logivs for the variables.
+![](images/Screenshot%202024-01-21%20at%2017.04.41.png)
 
 <br><br>
 
@@ -243,3 +241,22 @@ By default a component tab is available which will trigger the following flow.
 Additionally, A toast component can be used  to know if there any error while retrieving the data from the <b><i>A_ProductDescription entity</b></i>, Drag and drop a <b>Toast</b> component from the library and connect it with the second node of the of the Get Record component. 
 - And to bind the toast message, select  <b><i>Output value of another node</b></i> -> select <b><i>Get record</b></i>-> under the node output select <b><i>Error</b></i>. Now the there will be a toast with the error message if it fails to connect with the productdescription entity. 
 
+6. Drag and drop a <b>Set data variable</b>, and connect it with Set page variable component. Select <b>OrderItem1</b> as input data variable and bind the following formula for the Record Collection.<pre>WITH_ITEM(data.OrderItem1, {id: "", Quantity: pageVars.Item.Quantity, ProductID: pageVars.Item.ChosenProduct, ItemNumber: pageVars.Item.CurrentItemIndex, ProductName: pageVars.Item.ProductName})</pre>
+![](images/Screenshot%202024-01-21%20at%2017.31.36.png)
+
+7. Drag and drop another <b>Set data variable</b> and connect it with <b>Set data variable</b> used for <b>OrderItem1</b>. 
+- Select ItemVariable1 as Data variable name. 
+- Open the binding menu for th Record Collection, select mapping. Make sure the selected Source Data is ItemVariable1. Now Drag and drop ProductID field under Material, Quantity Field under Requested quantity.<br><br>
+![](images/Screenshot%202024-01-21%20at%2017.38.16.png)
+![](images/Screenshot%202024-01-21%20at%2017.39.16.png)
+
+8. Drag and drop a <B>Set page variable</b> and connect it with the <b>Set data variable</b>
+- select the variable ItemCost under Item. 
+- Bind the following formula for the Assigned value. <pre>pageVars.Item.ItemCount+1</pre>
+![](images/Screenshot%202024-01-21%20at%2017.41.58.png)
+
+9. Similarily, drag and drop a <B>Set page variable</b> and connect it with the <b>Set page variable</b> used for <i>Item.ItemCount</i>.
+- here select the the variable <i>CurrentItemIndex</i> under <b>Item</b> and bind the following formula under Assigned value. <pre>pageVars.Item.ItemCount-1</pre> 
+![](images/Screenshot%202024-01-21%20at%2017.46.27.png)
+
+10. 
