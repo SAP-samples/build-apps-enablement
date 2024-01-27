@@ -1,0 +1,60 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Post new Ideas in a Workzone forum",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "JAM destination URL"
+        }
+    ],
+    "paths": {
+        "/api/v1/OData/Forums('{id}')/Ideas": {
+            "post": {
+                "description": "Post Ideas",
+                "operationId": "Post Ideas",
+                "summary": "Post Ideas in a Workzone Forum",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "Name": {
+                                        "type": "string"
+                                    },
+                                    "Content": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "application/json"
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
