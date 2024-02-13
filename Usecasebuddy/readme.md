@@ -41,7 +41,34 @@ The answer page variable is binded with a formula to check the slider value and 
 for example
 <pre>IF(pageVars.question1==1, "1 Data source", IF(pageVars.question1==2, "2 Data sources", IF(pageVars.question1==3, "3 Data sources", IF(pageVars.question1==4, "4 Data sources", IF(pageVars.question1==5, "not sure about the number of data resources","")))))</pre>
 
-A delay with 1 ms is used to make sure the value in answer page variable is updated immediately when the slider value is changed. 
+A delay with 1 ms is used and connected back to the same <b><i>set page variable</b></i> to make sure the value in answer page variable is updated immediately when the slider value is changed. 
 
+Feel free to change the options and values accordingly. 
+
+
+# Complexity score calculation
+
+
+
+The complexity score is a straightforward aggregation of slider values. Each slider, ranging from 1 to 5, represents a level of difficulty (1 being easy, 5 being difficult). In our template, there are five values in each slider.
+
+Consider a page with four questions, each with a slider having five values. The maximum complexity score for this page would be 5 values * 4 questions = 20. To make this more digestible, we calculate the average score on a 10-point scale for each page using the formula:
+
+Averagescore=(sum of selected values/maximum value)*10
+
+![](images/Scorecalculation.png)
+
+finally we aggreagate the score of all pages to calculate the overall complexity of the idea.
+
+![](images/aggregate.png)
+
+
+# Summary Generation
+
+Similar to the score calculation, the summaries are concatinated using the page variables and some the static text in each page.<br><br>
+![](images/formulasummary.png)
+
+And finally summaries from all the pages are concatinated when sending data to SAP Build Process Automation.<br><br>
+![](images/summaryconcat.png)
 
 
