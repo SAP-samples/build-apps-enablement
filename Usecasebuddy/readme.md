@@ -6,7 +6,7 @@
 In the Details Page, basic information of the use case is collected, like Name, description, LoB and more. App variable has been used to collect this information. <br><br>
 ![](images/Detailspage.png)
 
-# Adding More Options to the "Line of Business" List
+# Adding more options to the "Line of Business" list
 
 To add the more options in the list for <b><i>Line of Business</b></i>, open and binding menu for the <b>Option list</b> and add the options.
 
@@ -71,4 +71,15 @@ Similar to the score calculation, the summaries are concatinated using the page 
 And finally summaries from all the pages are concatinated when sending data to SAP Build Process Automation.<br><br>
 ![](images/summaryconcat.png)
 
+# Final page
+
+<b>Deciding complexity</b>
+
+When the final page is mounted, the app variable complexity is binded using the formula. 
+<pre>IF(appVars.Score<=3, "Low", IF(appVars.Score<=5,"Moderate",IF(appVars.Score<=7.5, "High", IF(appVars.Score>=7.5,"Very High",""))))</pre>
+
+for the complexity score less 3 the complexity is <b>low</b>, for complexity less than 5 it will be <b>moderate</b>,for the complexity score less 7.5 the complexity will <b>High</b>, and will remain <b>Very High</b> if the complexity score is greater than 7.5.
+
+
+Similar formula is used in the image component.
 
