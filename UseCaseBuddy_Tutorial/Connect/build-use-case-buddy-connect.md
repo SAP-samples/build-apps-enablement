@@ -70,7 +70,9 @@ In the previous step <place holder for previous chapter>, we created an action p
 
     <!-- size:500px -->
     ![](visuals/Actionconfig.png)
-
+Go to Inputs tab, map <i>postmessage</i> to <i>Content</i> and <i>title</i> to <i>Name</i>
+       <!-- size:500px -->
+    ![](visuals/Actioninput.png)
 1. Similarily add another action project under the **Auto approval form** in the default branch of the Condition, 
      <!-- size:500px -->
     ![](visuals/Actionconfig2.png)
