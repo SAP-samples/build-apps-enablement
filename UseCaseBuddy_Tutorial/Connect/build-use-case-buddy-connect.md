@@ -41,7 +41,8 @@ You'll need to set up the correct email configurations so that the right people 
 1. Similarily, edit the email body of the other email steps. 
 
 
-1. In the approval step recipients, enter the email address of Build Admin/IT admin. 
+1. In the approval step recipients, enter the email address of Build Admin/IT admin.
+   Similarily, change the recipient for use case auto approval form.
 
     <!-- size:500px -->
     ![](visuals/Approval.png)
