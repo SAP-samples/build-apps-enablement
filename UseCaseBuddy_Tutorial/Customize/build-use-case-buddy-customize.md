@@ -126,3 +126,22 @@ For the complexity score less 3 the complexity is **low**, for complexity less t
 
 Similar formula is used in the image component.
 
+
+Using <i>create record</i> logic in the Submit use case button, the data is sent from the app to trigger the approval process via destinations. here, an additional field called <b>post message</b> is sent. 
+This is field is used to add formatting the to the post when adding it in Build COE. 
+  <!-- size:500px -->
+  ![](visuals/postmessage.png)
+
+HTML tags can be used to format this text.
+
+  <!-- size:500px -->
+  ![](visuals/postmessageformula.png)
+
+Formatted text on the Build COE
+<!-- size:500px -->
+  ![](visuals/postmessagerepo.png)
+
+
+Now Run the app and test the framework.
+
+
