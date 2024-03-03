@@ -61,26 +61,27 @@ Using *Set app variable* to assign value to progress bar, in every page to hardc
 
 ### Creating question containers
 
-Each question container will have a Title component and an Answer component. <br>
+1. Each question container will have a Title component and an Answer component. <br>
 The questions are static, and can be changed in the properties of the component<br><br> 
   <!-- size:500px -->
   ![](visuals/questionbox.png)
 
-The Answer component will have a text component and a slider component, and have page variables answer and question binded to text and slider components respectively.<br><br>
+2. The Answer component will have a text component and a slider component, and have page variables answer and question binded to text and slider components respectively.<br><br>
 
   <!-- size:500px -->
   ![](visuals/answerbox.png)
 
-The slider have 5 values and text component will display dynamic values based on the slider value with logic created on the page level.
+3. The slider have 5 values and text component will display dynamic values based on the slider value with logic created on the page level.
+Below is the logic for that.
+- An event logic is used to check the slider values. In the properties of event logic select the question variable which is binded with the slider.
 
   <!-- size:500px -->
   ![](visuals/sliderlogic.png)
 
-The answer page variable is binded with a formula to check the slider value and show the respective option accordingly. 
+- The answer page variable is binded with a formula to check the slider value and show the respective option accordingly. 
 for example
       IF(pageVars.question1==1, "1 Data source", IF(pageVars.question1==2, "2 Data sources", IF(pageVars.question1==3, "3 Data sources", IF(pageVars.question1==4, "4 Data sources", IF(pageVars.question1==5, "not sure about the number of data resources",""))))) <!-- this will format it as code on the sap.developers markdown flavor-->
 
-A delay with 1 ms is used and connected back to the same ***set page variable*** to make sure the value in answer page variable is updated immediately when the slider value is changed. 
 
 Feel free to change the options and values accordingly. 
 
@@ -118,16 +119,15 @@ And finally summaries from all the pages are concatinated when sending data to S
 
 **Deciding complexity**
 
-When the final page is mounted, the app variable complexity is binded using the formula. 
+- When the final page is mounted, the app variable complexity is binded using the formula. 
         IF(appVars.Score<=3, "Low", IF(appVars.Score<=5,"Moderate",IF(appVars.Score<=7.5, "High", IF(appVars.Score>=7.5,"Very High",""))))<!-- this will format it as code on the sap.developers markdown flavor-->
 
-
-For the complexity score less 3 the complexity is **low**, for complexity less than 5 it will be **moderate**,for the complexity score less 7.5 the complexity will **High**, and will remain **Very High** if the complexity score is greater than 7.5.
+- For the complexity score less 3 the complexity is **low**, for complexity less than 5 it will be **moderate**,for the complexity score less 7.5 the complexity will **High**, and will remain **Very High** if the complexity score is greater than 7.5.
 
 Similar formula is used in the image component.
 
 
-Using <i>create record</i> logic in the Submit use case button, the data is sent from the app to trigger the approval process via destinations. here, an additional field called <b>post message</b> is sent. 
+- Using <i>create record</i> logic in the Submit use case button, the data is sent from the app to trigger the approval process via destinations. here, an additional field called <b>post message</b> is sent. 
 This is field is used to add formatting the to the post when adding it in Build COE. 
   <!-- size:500px -->
   ![](visuals/postmessage.png)
@@ -137,11 +137,13 @@ HTML tags can be used to format this text.
   <!-- size:500px -->
   ![](visuals/postmessageformula.png)
 
-Formatted text on the Build COE
+Formatted text on the workspace.
 <!-- size:500px -->
   ![](visuals/postmessagerepo.png)
 
 
 Now Run the app and test the framework.
 
+Best practises to deploy the application.
 
+< Add here > 

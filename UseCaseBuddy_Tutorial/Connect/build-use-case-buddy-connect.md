@@ -29,7 +29,7 @@ Within this tutorial you will implement the buddy's approval process and configu
 
 You'll need to set up the correct email configurations so that the right people are reviewers. The first email step in this process would be sent to the IT Team/SAP Build Admins who will review the Use Case information. An email notification can be sent to them that a new Use Case idea has been submitted.
 
-1. Change up the correct address of your reviewer. This person gets all the notifications about new submitted use cases. Enter the email address can be entered in the email header. 
+1. Change up the correct address of your reviewer. This person gets all the notifications about new submitted use cases. The email address can be entered in the email header. 
       <!-- size:500px -->
     ![](visuals/emailaddress.png)
 
@@ -52,7 +52,7 @@ You'll need to set up the correct email configurations so that the right people 
 
 <!-- @Kanishka: Could we also put this step later? So that people who dont want to use the Work Zone part can always skip it at the end? -->
 
-In the previous step <place holder for previous chapter>, we created an action project that will post the ideas in the Build COE template which is a Build WorkZone site. Now we will insert that action project in this approval process so that approved ideas get displayed on the Work Zone site.
+In the previous step <place holder for previous chapter>, we created an action project that will post the ideas in a workspace of SAP Build Work Zone. Now we will insert that action project in this approval process so that approved ideas get displayed on the Work Zone site.
 
 1. Click on **+** icon under the sucess branch of approval form to add a step. 
    select **Actions** now.
@@ -90,7 +90,7 @@ Go to Inputs tab, map <i>postmessage</i> to <i>Content</i> and <i>title</i> to <
 
 
 ### Integrate your use case approval process with the Use Case Buddy App
-1. First make sure your [process automation destination setup](https://developers.sap.com/tutorials/spa-create-service-instance-destination.html) is completed. <!-- @Kanishka can we remove this as a prerequisite then from the first tutorial? -->
+1. First make sure your [process automation destination setup](https://developers.sap.com/tutorials/spa-create-service-instance-destination.html) is completed. 
 
 1. In the SAP Build Process Automation project, in the data type use case buddy, you can see that there are a lot of parameters.
 
@@ -99,7 +99,7 @@ Go to Inputs tab, map <i>postmessage</i> to <i>Content</i> and <i>title</i> to <
 
   *In other words, these values are needed to trigger the approval process. These values are sent from SAP Build Apps through destination API.*
 
-1. In SAP Build Apps, check the data connection **Workflow**. 
+1. In SAP Build Apps project, check the data connection **Workflow**. 
    
    - Make sure the correct destination is selected to access SAP Build process automation.
    - The resource schema from SAP Build Apps should match the data types in SAP Build Process Automation. <br><br>
@@ -114,7 +114,7 @@ Go to Inputs tab, map <i>postmessage</i> to <i>Content</i> and <i>title</i> to <
 
 1. Using formula editor replace the destination id of your deployed process. 
 
-    Through the destinations, the SAP Build Apps, can access SAP Build Process automation service, and using the defition ID of the process, the app will be able to identify the right process. 
+    Through the destinations, the SAP Build Apps, can access SAP Build Process Automation service, and using the defition ID of the process, the app will be able to identify the right process. 
     
     Now, this data connection will identify the process and deliver the values according to schema of the data type created in process automation project.
 
@@ -122,9 +122,9 @@ Go to Inputs tab, map <i>postmessage</i> to <i>Content</i> and <i>title</i> to <
     ![](visuals/Formula.png)
 
 
-1. To get the definition ID, make sure your SAP Build Process automation project is **deployed**.
+1. To get the definition ID, make sure your SAP Build Process Automation project is **deployed**.
     
-    Once deployed, go to the monitoring tab and select **Process and Workflows**.
+    Once deployed, go to the monitoring tab of your Build lobby and select **Process and Workflows**.
 
     <!-- size:500px -->
     ![](visuals/processandwork.png)
