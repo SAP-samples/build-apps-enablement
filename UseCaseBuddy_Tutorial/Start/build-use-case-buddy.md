@@ -13,7 +13,7 @@ parser: v2
 <!-- description --> With the great advantages of low-code your key users, application developers and employees will be brimming with a vast number of ideas to build! Many will want to dive in fast and start developing their own solutions, because it is easy to start playing around with drag-and-drop tools. So, how can IT avoid becoming inundated with requests for approval to build use cases that exist already, don’t make sense, or risk creating shadow IT? How can IT best determines use case complexity and requirements for to-be solutions that extend and augment SAP systems? They require a structured way to collect, classify and review idea ... a Use Case Buddy!
 
 ## You will learn  
-  - How to ideate, collect and differentiate ideas from your users
+  - How you can ideate, collect and differentiate ideas from your users
   - How to build your own Use Case Buddy for your organization
   - How to connect SAP Build Apps, SAP Build Process Automation and SAP Build Work Zone Advanced Edition
   - How to change and customize contents, logics and workflows in the SAP Build portfolio 
@@ -23,9 +23,11 @@ parser: v2
  -  IAS tenant with the openID protocol; Important: SAML cannot be used as protocol. The IAS tenant and the BTP account with SAP Build Apps must run in the same landscape (Either both on the canary or both in the productive landscape) 
  -  Boosters for [SAP Build Apps](https://help.sap.com/docs/build-apps/service-guide/activate-your-sap-build-apps-package) and [SAP Build Process Automation](https://developers.sap.com/tutorials/spa-subscribe-booster.html) are activated
  -  SMTP Destination [configured](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/configuring-smtp-mail-destination) to send mail notifications
- -  *(optional, in case you want to connect the Use Case Buddy to SAP Build Work Zone)* [SAP Build Work Zone Advanced Edition](https://blogs.sap.com/2023/01/02/sap-btp-onboarding-series-step-by-step-guide-to-activate-your-sap-build-work-zone-advanced-edition/) activated and setup in your BTP Subaccount
- - *(optional, in case you want to connect the Use Case Buddy to SAP Build Work Zone)* [Destination created](https://developers.sap.com/tutorials/spa-create-service-instance-destination.html) to trigger Process from any service
- - *(optional, in case you want to connect the Use Case Buddy to SAP Build Work Zone)* “JAM” as destination in BTP Cockpit can be found
+
+  -  [Destination created](https://developers.sap.com/tutorials/spa-create-service-instance-destination.html) to trigger Process from any service.
+
+   -  [optional] Activate  [SAP Build Work Zone Advanced Edition](https://blogs.sap.com/2023/01/02/sap-btp-onboarding-series-step-by-step-guide-to-activate-your-sap-build-work-zone-advanced-edition/) and setup in your BTP Subaccount if you want to use SAP Build Work Zone as repository to save the ideas from Use Case Buddy app.
+
 
 ## Intro
 It’s essential for IT to educate and guide everyone involved in fusion development so their time and effort is being used wisely, steering them to the right projects from the start. Characterizing the complexity of a use case before development begins is critical, so that IT can prevent avoidable costs, quality issues, and security problems. And, as the volume of use cases for consideration quickly grows from a dozen to hundreds and more, the IT teams responsible for governance need to manage this at scale. This is where the Use Case Buddy comes into play!
@@ -140,14 +142,14 @@ Building the Use Case Buddy and making it work for your organization will bring 
 
 ### Import the templates for SAP Build Work Zone Advanced Edition
 
-In the third part of the Use Case Buddy the submitted ideas will get forwarded and displayed on a SAP Build Work Zone Advanced Edition site. The following step is all about importing a template site for this project. You can also do it with any other SAP Build Work Zone Advanced Edition site. 
+If you decide to save the ideas from Use Case Buddy app in a Work Zone site, you can use the SAP Build Centre of Exellence Toolkit which is a workspace built using SAP Build Work Zone. The following step is all about importing a template site for this project. But can also integrate any other workspace on SAP Build Work Zone Advanced Edition.
 
 1. Follow along this [tutorial](https://developers.sap.com/tutorials/build-digital-coe.html) to import and build your "Digital CoE". **Please note:** You only need to do step 1 and 2 for the Use Case Buddy. Of course you can still follow the other steps afterwards ...
 
 
-### Setup SAP Build Work Zone Advanced Edition to SAP Build Process Automation 
+###  Connect SAP Build Process Automation to SAP Build Work Zone Advanced Edition
 
-In this step you'll connect SAP Build WorkZone Advanced Edition with the Forum APIs from your SAP Build Process Automation automation and the Action Project. We will also see how to post a new Idea to an already established Forum in SAP Build Work Zone Advanced Edition from an Action Project.
+You can use an **Action project** in SAP Build Process automation to connect with any service. In this step you will explore how you can create an action project to create new ideas in Forums of the workspace in SAP Build Work Zone. 
 
 Let's get started!
 
@@ -156,18 +158,21 @@ Let's get started!
     <!-- size:500px -->
     ![Destination](visuals/destination1.png)
 
-2. Search for **JAM** destination and click on **Clone** Icon to create a duplicate of the JAM Destination.
+2. Search for **JAM** destination and click on **Clone** Icon to create a duplicate of the JAM Destination. <br>
+*JAM destination will be created by default when subscribed to the SAP Build Work Zone.*
 
     <!-- size:500px -->
     ![Destination](visuals/destination2.png)
 
-3. Change the followings in the JAM_CLONING destination and Save.
+3. In order to use this destination for the action project, change the following parameters in the cloned destination destination.
 
     - Give a different destination Name: **JAMForActions** *Please note: We will refer to this new destination “JAMForActions” later in Action Project.*
     - Add few **Additional Properties** as below:
       - sap.applicationdevelopment.actions.enabled : true
       - sap.processautomation.enabled : true
       - sap.build.usage: odata_gen
+
+     - Click on SAVE
 
     <!-- size:500px -->
     ![Destination](visuals/destination3.png)
@@ -179,12 +184,12 @@ Let's get started!
     <!-- size:500px -->
     ![Destination](visuals/destination4.png)
 
-1. Next we'll create a new Forum in Workzone and spot the ID. Log into **SAP Build Work Zone** site (Advanced Edition) and navigate to your workspace, where you want to setup the Forum.
+5. To add the ideas in the forum, you will need the *forum id*. Log into **SAP Build Work Zone** site (Advanced Edition) and navigate to your workspace, where you want to setup the Forum.
 
     <!-- size:500px -->
     ![Destination](visuals/forum1.png)
 
-1. Click on **Forums** and click on **New Forum Topic**.
+6. Click on **Forums** and click on **New Forum Topic**.
 
     <!-- size:500px -->
     ![Destination](visuals/forum2.png)
@@ -207,16 +212,15 @@ Let's get started!
     <!-- size:500px -->
     ![Destination](visuals/forum5.png)
 
-1. Now we will create the API specification (API Spec)
-
-1. Download the API Spec from the below mentioned git repository:
+9. You can create an action project using open API Spec. Download the created API Spec from the below mentioned git repository:
 
     [APISpec](https://github.com/SAP-samples/build-apps-enablement/blob/main/UseCaseBuddy/IdeaPostAPISpec.json)
 
     **Please note** that this is the custom API specification created for this particular use case. The complete Work Zone Forum API specification can be found is SAP Business [Accelerator Hub](https://api.sap.com/api/Forum/overview).
     
-2. Change the **Servers>url** to include JAM host URL (refer to JAM destination section)
+2. Open the downloaded API spec using a text editor, and change the following value. 
 
+In  **Servers>url**, include JAM host URL (refer to the Step 3)
     <!-- size:500px -->
     ![APISpec](visuals/apispec1.png)
 
@@ -229,7 +233,7 @@ Let's get started!
 
 ### Create an Action Project
 
-[Why are we doing this]
+Now, you have everything to create the action project to connect with SAP Build Work Zone.
 
 1. Open **SAP Build Lobby** and navigate to **Actions** section. Click on **Create**.
 
@@ -283,17 +287,22 @@ Let's get started!
     - **Parameter**: *Path*
     - **Label**: *id*
     - **Static**: *Yes*
-    - **Value**: *Forum folder id* (your id which you have created in the previous section)
+    - **Value**: *Forum folder id* (your id which you have created in Step 8 in the previous section)
 
     Click on **Add**.
 
     <!-- size:400px -->
     ![APISpec](visuals/apispec11.png)
 
-1. You can see that the** mandatory path parameter (id)** is now appearing in Input parameter section. Click on **Save**.
-
+1. You can see that the** mandatory path parameter (id)** is now appearing in Input parameter section. 
     <!-- size:500px -->
     ![APISpec](visuals/apispec12.png)
+12. Select the parameter action. 
+in the value field enter *application/json.*
+Click on **Save**.
+     <!-- size:500px -->
+     ![APISpec](visuals/actionaccept.png)
+
 
 1. Navigate to **Test** tab. And select the **JAM destination** (Say, JAMForActions) from Destinations dropdown, which we have created in previous section.
 
@@ -301,9 +310,10 @@ Let's get started!
     ![APISpec](visuals/apispec13.png)
 
 1. Enter the following **Input values** and click on **Test**.
-    - **Accept**: *application/json*
+    
     - **Name**: New Idea Title (For example: "New Mobile App for Finance Dept")
     - **Content**: New Idea Content (For example: "Considering the need for universal access, I propose developing a new mobile application for the team.")
+    - **id** and **Accept** fields should be prefilled.
 
     <!-- size:500px -->
     ![APISpec](visuals/apispec14.png)
@@ -323,9 +333,7 @@ Let's get started!
     <!-- size:500px -->
     ![APISpec](visuals/apispec17.png)
 
-1. **Go Back to Action Editor** to Release and Publish the Action Project.
-
-1. Click on **Release**.
+1. **Go Back to Action Editor** to Release and Publish the Action Project. 
 
     <!-- size:500px -->
     ![APISpec](visuals/apispec18.png)
