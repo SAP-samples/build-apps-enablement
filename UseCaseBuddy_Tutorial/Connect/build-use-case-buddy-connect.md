@@ -33,7 +33,7 @@ You'll need to set up the correct email configurations so that the right people 
       <!-- size:500px -->
     ![](visuals/emailaddress.png)
 
-1. The mail body can also be edited. Please make sure to change the link of the inbox.
+1. The mail body can also be edited. Feel free to change the content of the email.  Please make sure to change the link of the inbox.
     
     <!-- size:500px -->
     ![](visuals/mailbody.png)
@@ -54,7 +54,7 @@ You'll need to set up the correct email configurations so that the right people 
 
 In the previous step <place holder for previous chapter>, we created an action project that will post the ideas in a workspace of SAP Build Work Zone. Now we will insert that action project in this approval process so that approved ideas get displayed on the Work Zone site.
 
-1. Click on **+** icon under the sucess branch of approval form to add a step. 
+1. Click on **+** icon under left branch of approval form (success branch) to add a step. 
    select **Actions** now.
    <!-- size:500px -->
    ![](visuals/addaction.png)
@@ -101,7 +101,7 @@ Go to Inputs tab, map <i>postmessage</i> to <i>Content</i> and <i>title</i> to <
 
 1. In SAP Build Apps project, check the data connection **Workflow**. 
    
-   - Make sure the correct destination is selected to access SAP Build process automation.
+   - Make sure the correct destination is selected to access SAP Build process automation. *please note: the name should match with name given when creating your process automation destionation in the first step.*
    - The resource schema from SAP Build Apps should match the data types in SAP Build Process Automation. <br><br>
 
     <!-- size:500px -->
@@ -112,7 +112,7 @@ Go to Inputs tab, map <i>postmessage</i> to <i>Content</i> and <i>title</i> to <
     <!-- size:500px -->
     ![](visuals/RBM.png)
 
-1. Using formula editor replace the destination id of your deployed process. 
+1. Using formula editor replace the destination id of your deployed process. You will see how get your destination id in the next step.
 
     Through the destinations, the SAP Build Apps, can access SAP Build Process Automation service, and using the defition ID of the process, the app will be able to identify the right process. 
     
