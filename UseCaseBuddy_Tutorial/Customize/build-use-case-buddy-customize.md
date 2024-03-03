@@ -44,17 +44,22 @@ In the Details Page, basic information of the use case is collected, like Name, 
 
 ### Adding more options to the "Line of Business" list
 
-To add the more options in the list for ***Line of Business***, open and binding menu for the **Option list** and add the options.
+- To add the more options in the list for ***Line of Business***, open and binding menu for the **Option list** and add the options.
   <!-- size:500px -->
   ![](visuals/loblist.png)
 
+- In binding menu select list of values to edit or even add more options in the dropdownn lists.
+<!-- size:500px -->
+![](visuals/dropdownoption.png)
+
+
 ### Progress bar
 
-A progress bar has been used in the app, to let the users track the progress of the questionnare using an app variable *completion* value.
+- A progress bar has been used in the app, to let the users track the progress of the questionnare using an app variable *completion* value.
   <!-- size:500px -->
   ![](visuals/progressbar.png)
 
-Using *Set app variable* to assign value to progress bar, in every page to hardcode the progress based on the number of pages used.
+- Using *Set app variable* to assign value to progress bar, in every page to hardcode the progress based on the number of pages used.
   <!-- size:500px -->
   ![](visuals/bindingvalueforprgressnar.png)
 
@@ -137,12 +142,17 @@ HTML tags can be used to format this text.
   <!-- size:500px -->
   ![](visuals/postmessageformula.png)
 
-Formatted text on the workspace.
+Formatted text on the workspace. 
 <!-- size:500px -->
   ![](visuals/postmessagerepo.png)
 
 
-Now Run the app and test the framework.
+After all the customisation, open the app in preview mode to test the framework.
+
+- In testing, you can enter the use case idea in the application and submit it.
+- The idea will be submitted to the process where you will see the email notificaiton to review the use case. in the SAP Build inbox you can review the use case and approve it. 
+
+- Now the appoved idea should be visible in the Forums of your workspace.  
 
 Best practises to deploy the application.
 
