@@ -154,6 +154,4 @@ After all the customisation, open the app in preview mode to test the framework.
 
 - Now the appoved idea should be visible in the Forums of your workspace.  
 
-Best practises to deploy the application.
-
-< Add here > 
+Here you can find how to [deploy your application](https://help.sap.com/docs/build-apps/service-guide/build-and-deploy-web-applications)
