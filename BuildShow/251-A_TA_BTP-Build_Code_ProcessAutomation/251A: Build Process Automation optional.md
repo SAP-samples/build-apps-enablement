@@ -1,0 +1,41 @@
+# Contents
+Module 1 : <a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/BuildShow/251_TA_BTP-Build_Code_Using-Joule/251-1_Build_Code.md">Build Code<br></a>
+Module 2 : <a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/BuildShow/251-A_TA_BTP-Build_Code_ProcessAutomation/251A%3A%20Build%20Process%20Automation%20%5Boptional%5D.md"><b>Build Process Automation</b></a><br>
+Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/BuildShow/252_TA_BTP-Build_Code_Build-Apps/252-0_Build_Apps.md"> Build Apps</a><br>
+
+# Module 2 {Optional}
+
+
+### Create an SAP Build Process Automation project from a template
+
+1. Click <a href ="https://sap-build-academy-devtest.eu10.build.cloud.sap/lobby"> Lobby</a> to open the entry page of SAP Build Apps.
+<br><i>Verify once that you are logged in with the right user id and copy the id for use later. </i><br><br>
+![](./Images/Image0.png)
+
+2. In the Lobby, use the search field to look for the project named PM-Bonus Redemption Process(EU). Hint: Switch to the options ‘All projects’ to find the template project. <br><br>
+![](./Images/Image1.png)
+
+3. Prefix the user id (previously copied in step 1.1) and ‘Save As New’ project.<br><br>
+![](./Images/Image3.png)
+
+4. Open the project and go to the Redemption process, expand, and explore it. <br>
+<b><u>NOTE</b></u>:  This process demonstrates a simple workflow that adds the conditional logic to validate if a minimum value of the purchase is made. So, if only the redemption points are used for this purchase, then we Decline it via a Form notification. <br><br>
+<i><b><u>Disclaimer</u></b>: The use case is intentionally kept simple for purpose of this tutorial to showcase the decline as a notification only. The redemption would still pass as we have not built any complex logic around it yet.<br><br></i>
+![](./Images/Image6.png)<br><br>
+![](./Images/Image7.png)<br><br>
+![](./Images/Image8.png)
+
+
+5. In the DeclineForm (General tab -> scroll to Users) change the mail id to <your user-id (in lower case only)>@sapexperienceacademy.com. eg:tac005323u01@sapexperienceacademy.com<br><br>
+![](./Images/Image4.png)
+
+6. In the Notification Form (General tab -> scroll to Users) change the mail id to <your user-id (in lower case only)>@sapexperienceacademy.com <br><br>
+![](./Images/Image5.png)
+
+7. Save and Release the project with default settings
+![](./Images/Image9.png)
+
+8. Deploy the project in Public environment. 
+
+9. Return to the SAP Lobby and Publish this process to SAP Build Library. 
+ 
