@@ -94,4 +94,4 @@ After the successful deployment you will find the link of the deployed applicati
 
 **That was it for the SAP Build Code part. Congratulations**
 
-**[Next Module 2: SAP Build Process Auomtaion](.. >**
+**<a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/BuildShow/251-A_TA_BTP-Build_Code_ProcessAutomation/251A%3A%20Build%20Process%20Automation%20optional.md">[Next Module 2: SAP Build Process Auomtaion] </a>**
