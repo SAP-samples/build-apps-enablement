@@ -1,7 +1,7 @@
-# Content
+# Contents
 Module 1 : <a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/BuildShow/251_TA_BTP-Build_Code_Using-Joule/251-1_Build_Code.md"><b>Build Code</b><br></a>
 Module 2 : Build Process Automation<br>
-Module 3 : Build Apps
+Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/BuildShow/252_TA_BTP-Build_Code_Build-Apps/252-0_Build_Apps.md"> Build Apps</a><br>
 
 
 # Module 1 - Unit 1: SAP Build Code  
