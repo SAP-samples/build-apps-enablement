@@ -1,16 +1,34 @@
-### Post Ideas in the COE template.
+# Process Automation
 
-<b>Post Ideas in Build COE </b> is an action step, which will add the information in the Build COE template, (SAP Build WorkZone).<br>
-In this step, make sure a destination variable is selected, if not create one.<br>
-Under <b>Run step on behalf of</b>, select <b><i>Approval form</b></i>.
-Leave the input parameters as it is.
+
+To configure the setup, 
+
+- Select the email step called Notification to Build Admin and change the email adress to the Admin's email id who will reveiw the use cases. <br>
+You can also change the body of the notification email. 
+
+![](images/emailaddress.png)
+
+You can change the link for Inbox with the link of your Build inbox.<br><Br>
+![](images/mailbody.png)
+
+Similarily you can edit the body of the other Email steps. 
+
+- for the configuration of the action step <b><i>Post Ideas in Build COE</b></i>, 
+<bR>make sure a destination variable is selected, if not create a destination variable and select it. 
+<br>under <b>Run step on behalf of</b>, select the <b><i>Approval Form</b></i><br><br>
+Leave the Inputs configuraton as it is.
 
 ![](images/Actionconfig.png)
 
-After all the configuration, make sure to save it and Release it.
-
+After all the changes, save and release your project and Deploy<br><br>
 ![](images/release.png)
 
-After release, deploy your project. 
-select the destination for you created to connect with SAP Build WorkZone to define the destination variable.<br><br>
+When deploying, select the destination that you created to conenct with SAP Build WorkZone. In this case it is <b>JAM_usecasebuddy</b>.<br><br>
 ![](images/Destination.png)
+
+
+
+
+
+
+
