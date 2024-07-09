@@ -211,7 +211,7 @@ For Redemption value select the Page variable <i>Redemption Value</i>
 
 44. Select Alert component > enter the following text <i>Please check your inbox</i>
 
-![](./Images/252-4_Screenshot_159.png)
+![](./Images/formulastep.png)
 
 
 **[Next Module 2 - Unit 5: Logic for UI Components](./252-5_Logic_for_UI_Components.md) >**
