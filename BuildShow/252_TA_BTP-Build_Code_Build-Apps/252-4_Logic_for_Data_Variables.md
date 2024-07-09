@@ -163,11 +163,23 @@
 
 35. Drag & Drop the logic components below to create the logic flow shown below. Save
 
-![](./Images/252-4_Screenshot_150.png)
+![](./Images/step35.png)
+
+36. Select the trigger process node. <br>
+    On right hand side make sure you select the right process and opne the binding menu for Redemption object.
+
+![](./Images/step36.png)
+
+37. Use the following formulas for Purchase Value and Customer number.<br><br>
+<b>Purchase value</b><pre>data.Customers1[0].totalPurchaseValue</pre>
+<b>Customer number</b><pre>data.Customers1[0].customerNumber</pre>
+For Redemption value select the Page variable <i>Redemption Value</i>
+
+![](./images/step37.png)
 
 36. Select Create record function > Select the data entity: *Redemptions* > Click on the Custom Object
 
-![](./Images/252-4_Screenshot_151.png)
+![](./Images/step38.png)
 
 37. Click on the ABC icon under ID > Formula > Click on the Formula bar
 
@@ -197,17 +209,9 @@
 
 ![](./Images/252-4_Screenshot_158.png)
 
-44. Select Alert component > Click on the ABC icon under Dialog title > Formula
+44. Select Alert component > enter the following text <i>Please check your inbox</i>
 
 ![](./Images/252-4_Screenshot_159.png)
-
-45. Type the formula below > Save
-
-<br>
-
->data.Customers1[0].name + " has redeemed " + pageVars.RedemptionAmount + " successfully"
-
-![](./Images/252-4_Screenshot_160.png)
 
 
 **[Next Module 2 - Unit 5: Logic for UI Components](./252-5_Logic_for_UI_Components.md) >**
