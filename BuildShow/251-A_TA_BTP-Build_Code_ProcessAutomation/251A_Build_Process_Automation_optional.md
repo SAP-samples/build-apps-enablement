@@ -45,8 +45,7 @@ Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/mai
     1. Go to Monitoring tab . <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/f0c973c8-5b31-4025-9b4c-782f344601c6)
     2. Select Processes and Workflows <br><br>![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/5d2c89cd-f017-4962-8898-a6d9546fde03)
     3. Search for your process. Hint. As the project is prefixed with your user id, search for your user id. <br> <br>![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/8134833b-d0a2-4eb2-8e76-7bc581acb159)
-    4. Click on **Start New Instance** and replace it with the correct json object and click on **Start New Instance and Close**:  <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/8480f4d0-70ca-440a-84e6-31733c16dfa6)
-       a. To trigger the Notification Form 
+    4. Click on **Start New Instance** and replace it with the json object below and click on **Start New Instance and Close** and finally click on **Start Instances** :  <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/8480f4d0-70ca-440a-84e6-31733c16dfa6)
        {
         "redemption": {
             "CustomerNumber": "ABC",
@@ -55,8 +54,11 @@ Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/mai
         }
 
     }.<br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/6b4fe936-3764-489e-9b0d-b5b486dcac4f)
-       (OR)
-        b. To trigger the Decline Form 
+11. We can see the process instance with the Status **Running** .<br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/a9ef60c2-4046-4531-ba28-ef3922f93c43
+12. Click on it and expand the Log files. We can observe that the Condition **Redemption approved** has been reached. <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/d584de0c-df91-4400-96f2-c30ad93ff9d3)
+13. Click on **My Inbox** to find the notification form corresponding to it. <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/06f19e17-fab6-47ec-9436-ccfc866f01bb)
+We have tested the Redemption approved case.
+14. [OPTIONAL] To create an instance for the Decline redemption case, use the json below.
        {
         "redemption": {
             "CustomerNumber": "ABC",
@@ -65,9 +67,10 @@ Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/mai
         }
 
     }.<br><br>
+    Observe the process instance, explore the logs and check **My Inbox**
+We have tested the process successfully.
 
-11. Click on Start
-12. Integration of this process with SAP Build Apps is not covered as part of this exercise. Refer to the blog post with this information for some inspiration to extend the SAP Build Apps to trigger this process: https://community.sap.com/t5/sap-builders-blog-posts/what-s-new-in-sap-build-seamless-integration-of-processes-and-apps/ba-p/13675739
+Disclaimer:  Integration of this process with SAP Build Apps is not covered as part of this exercise. Refer to the blog post with this information for some inspiration to extend the SAP Build Apps to trigger this process: https://community.sap.com/t5/sap-builders-blog-posts/what-s-new-in-sap-build-seamless-integration-of-processes-and-apps/ba-p/13675739
 
 
 **[Next Module 3: SAP Build Apps](../252_TA_BTP-Build_Code_Build-Apps/252-0_Build_Apps.md) >**
