@@ -3,6 +3,8 @@
 
 In this part of the tutorial we will connect to an S4/HANA to get all the related product data.
 
+Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_8uqgkn7q">Add External Data Source</a>
+
 1. Therefore go to **SAP System** in the Service Center and find the BTP destination **S4HANA_Joule_Product** and click on **Add to CAP**
 
 **Note:** This destination is already configured by your subaccount admin. The destination is connected to a sandbox API from SAP Business Accelerator Hub. For more information about the API go to the SAP Business Accelerator Hub: https://api.sap.com/api/API_PRODUCT_SRV/overview

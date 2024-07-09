@@ -7,6 +7,8 @@ We already have created the entities, services, and sample data with Joule. Now 
 
 ## Backend Logic
 
+Here is a video tutorial for this unit: <a href="https://video.sap.com/media/t/1_ytxjgh48">Create Backend Logic with Joule</a>
+
 1. Go to Storyboard. Click on one of the entities under Services and Open in Graphical Modeler
 
 ![](./Images/251-4_Screenshot_25.png)

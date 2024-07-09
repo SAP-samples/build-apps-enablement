@@ -7,6 +7,9 @@ We will use Joule to enhance the sample data.
 
 ## Enhance Sample Data
 
+Here is video tutorial for this unit : <a href="https://video.sap.com/media/t/1_kcyk0aea">Enhance Sample Data with Joule  
+</a>
+
 1. Open the the Sample Data editor in the Storyboard by selecting **Open Editor** -> **Sample Data**
 
 ![](./Images/251-3_Screenshot_14.png)

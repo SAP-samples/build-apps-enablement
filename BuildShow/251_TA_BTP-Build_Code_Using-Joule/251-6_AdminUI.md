@@ -1,7 +1,12 @@
 **[Previous Module 1 - Unit 5: Add External Data Resource](./251-5_Add_External_Data_Resource.md) >**
 # Module 1 - Unit 6: Admin UI
 
+
+
 To Display and test the content we have already created for the customer loyalty program, we also create some Fiori Elements UIs.
+
+Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_wtxp2s27">UI Application</a>
+
 
 1. Go to back to the Storyboard and add a first UI application.
 
