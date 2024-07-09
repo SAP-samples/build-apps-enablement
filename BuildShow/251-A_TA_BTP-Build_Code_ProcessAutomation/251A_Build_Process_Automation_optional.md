@@ -41,8 +41,11 @@ Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/mai
 9. Return to the SAP Lobby and Publish this process to SAP Build Library. <br><br>
 ![](./Images/image10.png)
 
-10. Test the process
-11. Integration of this process with SAP Build Apps is not covered as part of this exercise. Refer to the blog post with this information: https://community.sap.com/t5/sap-builders-blog-posts/what-s-new-in-sap-build-seamless-integration-of-processes-and-apps/ba-p/13675739
+10. Test the process.
+    1. Go to Monitoring tab . <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/f0c973c8-5b31-4025-9b4c-782f344601c6)
+    2. 
+
+12. Integration of this process with SAP Build Apps is not covered as part of this exercise. Refer to the blog post with this information for some inspiration to extend the SAP Build Apps to trigger this process: https://community.sap.com/t5/sap-builders-blog-posts/what-s-new-in-sap-build-seamless-integration-of-processes-and-apps/ba-p/13675739
 
 
 **[Next Module 3: SAP Build Apps](../252_TA_BTP-Build_Code_Build-Apps/252-0_Build_Apps.md) >**
