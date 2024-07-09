@@ -15,7 +15,7 @@
 ![](./Images/252-3_Screenshot_112.png)
 
 5. Search for your project name in Build Code part of the exercise. Select your project once it is listed. <br>
-<b><i><u>PS</b></u>: If the Build Code deployement fails, search for <b>customer_loyal_ac00000uxx-loyaltyProgramSrv</b><br><br>
+<b><i><u>PS</b></u>: If the Build Code deployement fails, search for <b>customer_loyal_ac00000uxx-loyaltyProgramSrv</b><br><br></i>
 ![](./Images/252-3_Screenshot_113.png)
 
 6. Install Integration<br><br>
@@ -24,6 +24,18 @@
 7. Click on Enable Data Entity for all 4 Data entities listed on the left<br><br>
 ![](./Images/252-3_Screenshot_115.png)
 
+8. SAVE and Exit. <br>
+   Go to DATA TAB again and select ADD Integration<br><br>
+   ![](./Images/screen01.png)
+9. Select SAP Library.<br><br>
+![](./Images/screen02.png)
+
+10. Search for your deployed process and select it. <br><br>
+![](./Images/screen03.png)
+
+11. Select Enable Process. <br>
+SAVE it and Go back to Canvas View
+![](./Images/screen04.png)
 
 
 **[Next Module 2 - Unit 4: Logic for Data variables](./252-4_Logic_for_Data_Variables.md) >**
