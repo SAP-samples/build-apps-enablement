@@ -54,11 +54,12 @@ Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/mai
         }
 
     }.<br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/6b4fe936-3764-489e-9b0d-b5b486dcac4f)
-11. We can see the process instance with the Status **Running** .<br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/a9ef60c2-4046-4531-ba28-ef3922f93c43
-12. Click on it and expand the Log files. We can observe that the Condition **Redemption approved** has been reached. <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/d584de0c-df91-4400-96f2-c30ad93ff9d3)
-13. Click on **My Inbox** to find the notification form corresponding to it. <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/06f19e17-fab6-47ec-9436-ccfc866f01bb)
+11. We can see the process instance with the Status **Running** .<br><br>
+    ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/a9ef60c2-4046-4531-ba28-ef3922f93c43)
+13. Click on it and expand the Log files. We can observe that the Condition **Redemption approved** has been reached. <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/d584de0c-df91-4400-96f2-c30ad93ff9d3)
+14. Click on **My Inbox** to find the notification form corresponding to it. <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/06f19e17-fab6-47ec-9436-ccfc866f01bb)
 We have tested the Redemption approved case.
-14. [OPTIONAL] To create an instance for the Decline redemption case, use the json below.
+15. [OPTIONAL] To create an instance for the Decline redemption case, use the json below in step 4. (above).
        {
         "redemption": {
             "CustomerNumber": "ABC",
@@ -67,8 +68,8 @@ We have tested the Redemption approved case.
         }
 
     }.<br><br>
-    Observe the process instance, explore the logs and check **My Inbox**
-We have tested the process successfully.
+    Observe the process instance, explore the logs and check **My Inbox**.<br><br>
+With this we have tested our process successfully.
 
 Disclaimer:  Integration of this process with SAP Build Apps is not covered as part of this exercise. Refer to the blog post with this information for some inspiration to extend the SAP Build Apps to trigger this process: https://community.sap.com/t5/sap-builders-blog-posts/what-s-new-in-sap-build-seamless-integration-of-processes-and-apps/ba-p/13675739
 
