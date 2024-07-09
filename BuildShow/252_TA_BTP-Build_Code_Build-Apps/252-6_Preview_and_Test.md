@@ -43,7 +43,7 @@
 
 ![](./Images/252-6_Screenshot_194.png)
 
-11. Go to SAP Build Apps Desing Time > Select the data entity
+11. Go to SAP Build Apps Design Time > Select the data entity
 
 ![](./Images/252-6_Screenshot_195.png)
 
