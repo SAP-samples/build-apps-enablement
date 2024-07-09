@@ -1,10 +1,10 @@
-# New Era in Fusion Development: Use GenAI to create CAP Service in SAP Build Code (with Joule) + Use in SAP Build Apps
+# Build Show
 
 ## Script Overview
 
 ### Highlights
 
-In this tutorial, you will use GenAI capabilities of Joule to create a CAP Service with SAP Build Code. This will be the back-end service of a mobile application that will be created in SAP Build Apps.
+In this tutorial, you will use GenAI capabilities of Joule to create a CAP Service with SAP Build Code. This will be the back-end service of a mobile application that will be created in SAP Build Apps. We will also use SAP Build Process Automation for a building a simple business logic.
 
 ### Goal
 

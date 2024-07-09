@@ -10,7 +10,7 @@ We will use Joule to enhance the sample data.
 ![](./Images/251-3_Screenshot_14.png)
 
 
-2. Select **Customers** data entity. Add 5 more rows to the entity and push **Add** button
+2. Select **Customers** data entity. Add 10 more rows to the entity and push **Add** button
 
 ![](./Images/251-3_Screenshot_15.png)
 
@@ -32,7 +32,7 @@ Enhance my sample data with meaningful data. Any phone numbers must be 10 digits
 
 ![](./Images/251-3_Screenshot_18.png)
 
-6. Let's continue with sample data for the Purchases. Select the **Purchases** data entity. Add 5 more rows to the entity and push **Add** button
+6. Let's continue with sample data for the Purchases. Select the **Purchases** data entity. Add 10 rows to the entity and push **Add** button
 
 ![](./Images/251-3_Screenshot_19.png)
 
@@ -49,7 +49,7 @@ Enhance my sample data with meaningful data. Purchase value must be between 50 a
 
 ![](./Images/251-3_Screenshot_21.png)
 
-9. Select Redemptions data entity. Add 5 more rows to the entity and push **Add** button
+9. Select Redemptions data entity. Add 10 rows to the entity and push **Add** button
 
 ![](./Images/251-3_Screenshot_22.png)
 

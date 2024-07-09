@@ -11,6 +11,7 @@ We already have created the entities, services, and sample data with Joule. Now 
 
 
 2. Select Purchases entity by clicking on the title. Then, click on Add Logic
+   Note: if you can not see the Purchases entity you may have to zoom out the view.
 
 ![](./Images/251-4_Screenshot_26.png)
 
@@ -68,7 +69,7 @@ Deduct the redemption amount from the customer's total reward points and add tha
 
 ![](./Images/251-4_Screenshot_35.png)
 
-Have a closer look at the generate code. It even includes ssome checks if the customer has enough points for the redemption.
+Have a closer look at the generate code. It even includes some checks if the customer has enough points for the redemption.
 
 
 > **Note:**

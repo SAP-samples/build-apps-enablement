@@ -21,7 +21,7 @@
 6. Install Integration<br><br>
 ![](./Images/252-3_Screenshot_114.png)
 
-7. Click on Enable Data Entity for all 4 Data entities listed on the left<br><br>
+7. Click on Enable Data Entity for all 4 Data entities listed on the left and Save it<br><br>
 ![](./Images/252-3_Screenshot_115.png)
 
 8. SAVE and Exit. <br>
