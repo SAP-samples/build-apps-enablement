@@ -1,6 +1,6 @@
 # Module 2 - Unit 2: Upload UI  
 
-1. Open your SAP Build Lobby.<br>
+1. Open your SAP Build Lobby https://sap-build-academy-devtest.eu10.build.cloud.sap/lobby.<br>
 Search for <b>TA_Bonus_Barcode_Template.</b><br>
 You will find the Build Apps project. Go to options and select <i>Save as New Project.</i><br><br>
 ![](./Images/Screen1.png)
