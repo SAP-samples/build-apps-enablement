@@ -5,6 +5,7 @@ Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/mai
 
 # Module 3: SAP Build Apps  
 
+Optional: <b> SAP Build WorkZone <b> https://community.sap.com/t5/sap-builders-blog-posts/tips-to-add-your-sap-build-apps-application-to-different-btp-environments/ba-p/13631104
 
 1. Import Project: skips the nitty gritty of adding and stylizing components, and instead teaches you how to import an SAP Build Apps project into an existing project. This way is much faster.
 
