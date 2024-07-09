@@ -2,32 +2,26 @@
 
 
 
-1. Click on the page name written in blue at the top left corner of your page. Go to the page: *New Purchase*
-
+1. Click on the page name written in blue at the top left corner of your page. Go to the page: *New Purchase*<br><br>
 ![](./Images/252-3_Screenshot_109.png)
 
-2. Go to AUTH tab > Enable Authentication > SAP BTP authentication > OK
-
+2. Go to AUTH tab > Enable Authentication > SAP BTP authentication > OK<br><br>
 ![](./Images/252-3_Screenshot_110.png)
 
-3. Go to DATA tab
-
+3. Go to DATA tab<br><br>
 ![](./Images/252-3_Screenshot_111.png)
 
-4. Add Integration > BTP Destinations
-
+4. Add Integration > BTP Destinations<br><br>
 ![](./Images/252-3_Screenshot_112.png)
 
-5. Search for your project name in Build Code part of the exercise. Select your project once it is listed
-
+5. Search for your project name in Build Code part of the exercise. Select your project once it is listed. <br>
+<b><i><u>PS</b></u>: If the Build Code deployement fails, search for <b>customer_loyal_ac00000uxx-loyaltyProgramSrv</b><br><br>
 ![](./Images/252-3_Screenshot_113.png)
 
-6. Install Integration
-
+6. Install Integration<br><br>
 ![](./Images/252-3_Screenshot_114.png)
 
-7. Click on Enable Data Entity for all 4 Data entities listed on the left
-
+7. Click on Enable Data Entity for all 4 Data entities listed on the left<br><br>
 ![](./Images/252-3_Screenshot_115.png)
 
 
