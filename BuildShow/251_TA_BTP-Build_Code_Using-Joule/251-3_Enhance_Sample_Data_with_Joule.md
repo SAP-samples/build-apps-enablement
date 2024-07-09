@@ -10,7 +10,7 @@ We will use Joule to enhance the sample data.
 ![](./Images/251-3_Screenshot_14.png)
 
 
-2. Select **Customers** data entity. Add 5 more rows to the entity and push **Add** button
+2. Select **Customers** data entity. Add 10 more rows to the entity and push **Add** button
 
 ![](./Images/251-3_Screenshot_15.png)
 
