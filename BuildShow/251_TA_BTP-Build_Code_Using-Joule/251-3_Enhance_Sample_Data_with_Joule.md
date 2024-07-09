@@ -32,7 +32,7 @@ Enhance my sample data with meaningful data. Any phone numbers must be 10 digits
 
 ![](./Images/251-3_Screenshot_18.png)
 
-6. Let's continue with sample data for the Purchases. Select the **Purchases** data entity. Add 5 more rows to the entity and push **Add** button
+6. Let's continue with sample data for the Purchases. Select the **Purchases** data entity. Add 10 rows to the entity and push **Add** button
 
 ![](./Images/251-3_Screenshot_19.png)
 
