@@ -59,7 +59,7 @@ Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/mai
 13. Click on it and expand the Log files. We can observe that the Condition **Redemption approved** has been reached. <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/d584de0c-df91-4400-96f2-c30ad93ff9d3)
 14. Click on **My Inbox** ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/1d5b8bf9-e0f7-477a-89e3-181de25fbded) .<br><br> 
 Here, you can find the notification form corresponding to **Redemption approved**. <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/06f19e17-fab6-47ec-9436-ccfc866f01bb)
-We have tested the Redemption approved case.
+We have tested the Redemption approved case successfully.
 15. [OPTIONAL] To create an instance for the Decline redemption case, use the json below in step 4. (above).
        {
         "redemption": {
