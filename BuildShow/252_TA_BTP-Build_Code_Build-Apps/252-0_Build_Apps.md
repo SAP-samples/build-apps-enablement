@@ -1,4 +1,9 @@
-# Module 2: SAP Build Apps  
+# Contents
+Module 1 : <a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/BuildShow/251_TA_BTP-Build_Code_Using-Joule/251-1_Build_Code.md">Build Code<br></a>
+Module 2 : <a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/BuildShow/251-A_TA_BTP-Build_Code_ProcessAutomation/251A%3A%20Build%20Process%20Automation%20optional.md"><b>Build Process Automation</b></a><br>
+Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/main/BuildShow/252_TA_BTP-Build_Code_Build-Apps/252-0_Build_Apps.md"> Build Apps</a><br>
+
+# Module 3: SAP Build Apps  
 
 
 1. Import Project: skips the nitty gritty of adding and stylizing components, and instead teaches you how to import an SAP Build Apps project into an existing project. This way is much faster.
