@@ -8,7 +8,7 @@ Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/mai
 
 ### Create an SAP Build Process Automation project from a template
 
-1. Click <a href ="https://sap-build-academy-devtest.eu10.build.cloud.sap/lobby"> Lobby</a> to open the entry page of SAP Build Apps.
+1. Click <a href ="https://sap-build-academy-devtest.eu10.build.cloud.sap/lobby"> Lobby</a> to open the entry page of SAP Build Process Automation.
 <br><i>Verify once that you are logged in with the right user id and copy the id for use later. </i><br><br>
 ![](./Images/Image0.png)
 
