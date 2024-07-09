@@ -15,13 +15,15 @@ In this tutorial, you will use GenAI capabilities of Joule to create a CAP Servi
 
 2. To demonstrate the oneclick deployment in SAP Build Code and integrate it to SAP Build Apps
 
-3. Create UI extensions with SAP Build Apps
+3. Deploy process using SAP Build Process Automation to integrate with SAP Build Apps
 
-4. Use SAP Build Apps Mobile Preview
+4. Create UI extensions with SAP Build Apps
+
+5. Use SAP Build Apps Mobile Preview
 
 
 
-![](./Images/250-0_Screenshot_199.png)
+![](./Images/Solutionarchitecture.png)
 
 
 
