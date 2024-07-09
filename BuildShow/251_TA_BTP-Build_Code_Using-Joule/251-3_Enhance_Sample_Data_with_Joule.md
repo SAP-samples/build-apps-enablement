@@ -49,7 +49,7 @@ Enhance my sample data with meaningful data. Purchase value must be between 50 a
 
 ![](./Images/251-3_Screenshot_21.png)
 
-9. Select Redemptions data entity. Add 5 more rows to the entity and push **Add** button
+9. Select Redemptions data entity. Add 10 rows to the entity and push **Add** button
 
 ![](./Images/251-3_Screenshot_22.png)
 
