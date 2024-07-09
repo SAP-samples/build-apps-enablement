@@ -5,7 +5,7 @@
 
 
 ## Create Data Entities
-Here is a video tutorail for this unit <a href="https://video.sap.com/media/t/1_sm76hg3f">Create data entities with Joule</a>
+Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_sm76hg3f">Create data entities with Joule</a>
 
 
 1. After the project is created click on the project name in the Lobby. SAP Business Application Studio will be opened. Now go directly to the digial assistant Joule. 
