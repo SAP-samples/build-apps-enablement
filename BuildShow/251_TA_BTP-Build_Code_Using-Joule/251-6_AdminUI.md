@@ -1,3 +1,4 @@
+**[Previous Module 1 - Unit 5: Add External Data Resource](./251-5_Add_External_Data_Resource.md) >**
 # Module 1 - Unit 6: Admin UI
 
 To Display and test the content we have already created for the customer loyalty program, we also create some Fiori Elements UIs.

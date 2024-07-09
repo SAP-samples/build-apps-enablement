@@ -1,3 +1,4 @@
+**[Previous Module 1 - Unit 4: Create Backend Logic with Joule](./251-4_Create_Backend_Logic_with_Joule.md) >**
 # Module 1 - Unit 5: Add External Data Resource  
 
 In this part of the tutorial we will connect to an S4/HANA to get all the related product data.

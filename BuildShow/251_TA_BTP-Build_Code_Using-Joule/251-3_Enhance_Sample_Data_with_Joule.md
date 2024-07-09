@@ -1,3 +1,5 @@
+**[Previous Module 1 - Unit 2: Create Data Entities with Joule](./251-2_Create_Data_Entities_with_Joule.md) >**
+
 # Module 1 - Unit 3: Enhance Sample Data with Joule  
 
 Joule created the Data Model and Servicesand additionally some sample data.
