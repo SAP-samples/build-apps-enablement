@@ -69,7 +69,7 @@ Deduct the redemption amount from the customer's total reward points and add tha
 
 ![](./Images/251-4_Screenshot_35.png)
 
-Have a closer look at the generate code. It even includes ssome checks if the customer has enough points for the redemption.
+Have a closer look at the generate code. It even includes some checks if the customer has enough points for the redemption.
 
 
 > **Note:**
