@@ -6,6 +6,11 @@
 
 In this tutorial, you will use GenAI capabilities of Joule to create a CAP Service with SAP Build Code. This will be the back-end service of a mobile application that will be created in SAP Build Apps. We will also use SAP Build Process Automation for a building a simple business logic.
 
+### Suggestions
+1. Try the exercise on Google Chrome incognito window for better experience
+2. For video tutorials open link in a new tab
+
+
 ### Goal
 
 1. To display the power of Generative AI powered Development: Joule in SAP Build Code
