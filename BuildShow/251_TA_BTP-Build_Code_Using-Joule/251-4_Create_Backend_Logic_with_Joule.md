@@ -11,6 +11,7 @@ We already have created the entities, services, and sample data with Joule. Now 
 
 
 2. Select Purchases entity by clicking on the title. Then, click on Add Logic
+   Note: if you can not see the Purchases entity you may have to zoom out the view.
 
 ![](./Images/251-4_Screenshot_26.png)
 
