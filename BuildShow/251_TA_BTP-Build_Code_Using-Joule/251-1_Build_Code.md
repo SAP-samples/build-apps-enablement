@@ -34,7 +34,6 @@ SAP Build Code is a turnkey development environment that combines runtime and de
 The starting point for this tutorial is the Lobby of SAP Build, the central entry point for all SAP Build products.
 
 1. Open the lobby: https://sap-build-academy-devtest.eu10.build.cloud.sap/lobby
-(formerly: https://lcapteched.eu10.build.cloud.sap/lobby) 
 2. Ask the instructors for the username and password
 
 ## Create a new project
