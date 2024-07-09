@@ -29,6 +29,9 @@ SAP Build Code is a turnkey development environment that combines runtime and de
 
 ## Creation of a new project
 
+Here is a video tutorial you can follow for this step <a href="https://video.sap.com/media/t/1_owke7d4f">Build Code: Create a new project</a>
+
+
 ## Access Lobby
 
 The starting point for this tutorial is the Lobby of SAP Build, the central entry point for all SAP Build products.
@@ -62,5 +65,7 @@ The starting point for this tutorial is the Lobby of SAP Build, the central entr
 ![](./Images/251-1_lobby5.jpg)
 
 > The creation of the project can take up to 1 minute.
+
+
 
 **[Next Module 1 - Unit 2: Create Data Entities with Joule](./251-2_Create_Data_Entities_with_Joule.md) >**
