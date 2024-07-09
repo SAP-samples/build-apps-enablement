@@ -32,12 +32,14 @@ Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/mai
 6. In the Notification Form (General tab -> scroll to Users) change the mail id to <your user-id (in lower case only)>@sapexperienceacademy.com <br><br>
 ![](./Images/Image5.png)
 
-7. Save and Release the project with default settings
+7. Save and Release the project with default settings<br><br>
 ![](./Images/Image9.png)
 
-8. Deploy the project in Public environment. 
+8. Deploy the project in Public environment. <br><br>
+![](./Images/image11.png)
 
-9. Return to the SAP Lobby and Publish this process to SAP Build Library. 
+9. Return to the SAP Lobby and Publish this process to SAP Build Library. <br><br>
+![](./Images/image10.png)
 
 
 **[Next Module 3: SAP Build Apps](../252_TA_BTP-Build_Code_Build-Apps/252-0_Build_Apps.md) >**
