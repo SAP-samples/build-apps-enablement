@@ -49,6 +49,7 @@ Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_
     2. Select Processes and Workflows <br><br>![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/5d2c89cd-f017-4962-8898-a6d9546fde03)
     3. Search for your process. Hint. As the project is prefixed with your user id, search for your user id. <br> <br>![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/8134833b-d0a2-4eb2-8e76-7bc581acb159)
     4. Click on **Start New Instance** and replace it with the json object below and click on **Start New Instance and Close** and finally click on **Start Instances** :  <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/8480f4d0-70ca-440a-84e6-31733c16dfa6)
+    <pre>
        {
         "redemption": {
             "CustomerNumber": "ABC",
@@ -56,7 +57,7 @@ Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_
             "PurchaseValue": 10
         }
 
-    }.<br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/6b4fe936-3764-489e-9b0d-b5b486dcac4f)
+    }</pre>.<br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/6b4fe936-3764-489e-9b0d-b5b486dcac4f)
 11. We can see the process instance with the Status **Running** .<br><br>
     ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/a9ef60c2-4046-4531-ba28-ef3922f93c43)
 13. Click on it and expand the Log files. We can observe that the Condition **Redemption approved** has been reached. <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/d584de0c-df91-4400-96f2-c30ad93ff9d3)
@@ -64,6 +65,7 @@ Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_
 Here, you can find the notification form corresponding to **Redemption approved**. <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/06f19e17-fab6-47ec-9436-ccfc866f01bb)
 We have tested the Redemption approved case successfully.
 15. [OPTIONAL] To create an instance for the Decline redemption case, use the json below in step 4. (above).
+<pre>
        {
         "redemption": {
             "CustomerNumber": "ABC",
@@ -71,7 +73,8 @@ We have tested the Redemption approved case successfully.
             "PurchaseValue": 0
         }
 
-    }.<br><br>
+    }
+    </pre><br><br>
     Observe the process instance, explore the logs and check **My Inbox**.<br><br>
 With this we have tested our process successfully.
 
