@@ -52,7 +52,7 @@ Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_
     <pre>
        {
         "redemption": {
-            "CustomerNumber": "ABC",
+            "CustomerNumber": 2093,
             "RedemptionPoints": 100,
             "PurchaseValue": 10
         }
@@ -68,7 +68,7 @@ We have tested the Redemption approved case successfully.
 <pre>
        {
         "redemption": {
-            "CustomerNumber": "ABC",
+            "CustomerNumber": 392,
             "RedemptionPoints": 100,
             "PurchaseValue": 0
         }
