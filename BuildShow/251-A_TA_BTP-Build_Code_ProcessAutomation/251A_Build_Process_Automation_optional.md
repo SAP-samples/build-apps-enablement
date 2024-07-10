@@ -21,9 +21,12 @@ Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/mai
 4. Open the project and go to the Redemption process, expand, and explore it. <br>
 <b><u>NOTE</b></u>:  This process demonstrates a simple workflow that adds the conditional logic to decline a 'redemption only' purchase and approve any redemption only with a minimum value of the purchase. Here, the Decline and Approval is done via a Form notification. <br><br>
 <i><b><u>Disclaimer</u></b>: The use case is intentionally kept simple for purpose of this tutorial to showcase the decline as a notification only. The redemption would still pass as we have not built any complex logic around it yet.<br><br></i>
+Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_14sg7rl1">Deploy redemption process</a><br><br>
 ![](./Images/Image6.png)<br><br>
 ![](./Images/Image7.png)<br><br>
 ![](./Images/Image8.png)
+
+
 
 
 5. In the DeclineForm (General tab -> scroll to Users) change the mail id to <your user-id (in lower case only)>@sapexperienceacademy.com. eg:tac005323u01@sapexperienceacademy.com<br><br>

@@ -71,6 +71,11 @@ Set the following:
 ![](./Images/251-6_page5.jpg)
 ![](./Images/251-6_page6.jpg)
 
+You can now preview the UI. here is a video tutorial to preview the backend app you created <a href="https://video.sap.com/media/t/1_eht1hhe4">Preview</a>.
+
+
+
+
 Now continue with the deployment.
 
 **[Next Module 1 - Unit 7: Deployment](./251-7_Deployment.md) >**
