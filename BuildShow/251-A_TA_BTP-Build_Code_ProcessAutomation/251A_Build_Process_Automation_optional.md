@@ -68,7 +68,7 @@ We have tested the Redemption approved case successfully.
 <pre>
        {
         "redemption": {
-            "CustomerNumber": 392,
+            "CustomerNumber": 2093,
             "RedemptionPoints": 100,
             "PurchaseValue": 0
         }
