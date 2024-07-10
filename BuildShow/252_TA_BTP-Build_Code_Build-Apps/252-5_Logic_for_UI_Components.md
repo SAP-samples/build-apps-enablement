@@ -4,7 +4,7 @@
 
 
 
-
+Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_91xqa952">Logics for UI components</a>
 
 1. Select Card 1 > Click to ABC icon under Title > Formula > Select Formula Bar
 
