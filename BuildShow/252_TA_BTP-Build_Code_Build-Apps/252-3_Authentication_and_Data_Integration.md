@@ -1,7 +1,7 @@
 > [Previous Module Import the template](./252-2_Upload_UI.md) 
 # Module 2 - Unit 3: Authentication and Data Integration  
 
-
+Here is a video Tutorial for this unit <a href="https://video.sap.com/media/t/1_zebhwnyy">Enable Data Entities</a>
 
 1. Click on the page name written in blue at the top left corner of your page. Go to the page: *New Purchase*<br><br>
 ![](./Images/252-3_Screenshot_109.png)
