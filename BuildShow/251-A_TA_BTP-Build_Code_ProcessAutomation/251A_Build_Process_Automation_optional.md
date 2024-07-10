@@ -57,7 +57,7 @@ Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_
             "PurchaseValue": 10
         }
 
-    }</pre>.<br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/6b4fe936-3764-489e-9b0d-b5b486dcac4f)
+    }</pre><br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/6b4fe936-3764-489e-9b0d-b5b486dcac4f)
 11. We can see the process instance with the Status **Running** .<br><br>
     ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/a9ef60c2-4046-4531-ba28-ef3922f93c43)
 13. Click on it and expand the Log files. We can observe that the Condition **Redemption approved** has been reached. <br><br> ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/d584de0c-df91-4400-96f2-c30ad93ff9d3)
