@@ -33,6 +33,8 @@ Enhance my sample data with meaningful data. Any phone numbers must be 10 digits
  
 4. You can see the customer names, email adresses and purchases are created. Accept the new Sample Data created by Joule. 
 
+<i>Feel free to play with Joule to get meaningful names. Use prompts like "suggest me realnames" or "Let the names include marvel heros or DC heros if you are a fan of dark knight"</i>
+
 5. Verify in the customer list that one customerNumber was changed to **1200547**, if not change one customer number manually to **1200547**. <br>
 ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/b61bb2b0-30cb-405a-9c10-cb4093337a46)
 
