@@ -9,11 +9,13 @@ Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_
 
 **Note:** This destination is already configured by your subaccount admin. The destination is connected to a sandbox API from SAP Business Accelerator Hub. For more information about the API go to the SAP Business Accelerator Hub: https://api.sap.com/api/API_PRODUCT_SRV/overview
 
-![](./Images/251-5_Screenshot_37.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/695e1ea0-effd-49c7-9b69-e93b2b6c8709)
+
 
 2. Go to Storyboard and check if the External Resource got updated
 
-![](./Images/251-5_Screenshot_38.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/c15cd1c4-ebeb-4a7b-a59a-68cf08c7f216)
+
 
 3. Go to service.cds tab and Add Entity
 
