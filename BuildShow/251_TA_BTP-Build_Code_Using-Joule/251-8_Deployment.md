@@ -1,4 +1,4 @@
-**[Previous Module 1 - Unit 6: Admin UI](./251-6_AdminUI.md) >**
+**[Previous Module 1 - Unit 7: Preiview](./251-7_Preview.md) >**
 
 # Module 1 - Unit 7: Deployment  
 
@@ -6,11 +6,8 @@ The last step in SAP Build Code is to deploy the application to CloudFoundry. Th
 
 But before the deployment, we are preparing the services that the can be easily consumed in SAP Build Apps. Therefore we need to add the projections of the data entity without draft editing.
 
-1. Go to the Storyboard tab and click the **+** icon next to **Services**
 
-![](./Images/251-7_Service_1.png)
-
-2. Select the **Customers** entity and disable draft editing.
+1. Go to **service.cds tab** Select the **Customers** entity and disable draft editing.
 
 ![](./Images/251-7_Service_2.png)
 
@@ -33,6 +30,9 @@ But before the deployment, we are preparing the services that the can be easily 
 7. During the deployment a new page will be opened to to sign into CloudFoundry. Click on *Open a new browser page to generate your SSO passcode*
 
 ![](./Images/251-7_Screenshot_84.png)
+
+8. Enter **academy-platform** and click **Sign in with alternative identity provider**.<br><br>
+![](./Images/103-8_CloudFoundry-6.png)
 
 8. Copy the Temporary Authentication Code. 
 
