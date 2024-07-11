@@ -61,11 +61,8 @@ Hint: If the data is not correct, regenerate Joule once again / correct the data
 NOTE : In case of any techical issues, please import the Sample data from here:  [customer_loyal_aparna_Purchases.csv](https://github.com/user-attachments/files/16174118/customer_loyal_aparna_Purchases.csv)
 
 
-![](./Images/251-3_Screenshot_21.png)
 
 9. Select Redemptions data entity. Add 5 rows to the entity and push **Add** button
-
-![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/a7064d00-9f36-4e4e-b9a9-7e3a7bbc9a8d)
 
 
 10. Click **Enhance**. Then, use the following prompt in Joule:
@@ -74,7 +71,8 @@ NOTE : In case of any techical issues, please import the Sample data from here: 
 Ensure that each redeemed amount is arbitrary and between 10 and 100.
 ```
 
-![](./Images/251-3_Screenshot_23.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/c6837ef4-e618-401c-886b-7a9fddaef7d8)
+
 
 11. Accept the changes proposed by Joule. 
 ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/2f835549-63a6-4eca-ac0f-e64888beebeb)
