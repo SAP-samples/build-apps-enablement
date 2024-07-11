@@ -26,7 +26,8 @@ You can drop the new entity anywhere
 
 4. Select the data entity: **s4_product.A_ProductBasicText**
 
-![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/830c9a98-b8e1-46d0-8be3-9c225b3b452e)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/9c000244-936e-4f5c-98f9-f5c4cad1d0f1)
+
 
 
 
