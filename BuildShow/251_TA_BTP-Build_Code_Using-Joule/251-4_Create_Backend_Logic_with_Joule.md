@@ -55,15 +55,20 @@ So Joule created now following logic:
 
 7. Now let's look at the Redemptions. Go to back service.cds tab. Select Redemptions entity by clicking on the title. Then, click on Add Logic
 
-![](./Images/251-4_Screenshot_31.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/234c0fae-2810-4ce2-a5d5-80da83dac2ff)
+
 
 8. Click on **Add**
 
-![](./Images/251-4_Screenshot_32.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/e5c640d8-4e09-4877-87a7-a1ff504b21df)
+
 
 9. Select **Create**. Then, choose **Application Logic** under **Open Code Editor**.
 
-![](./Images/251-4_Screenshot_33.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/128633a9-12f0-4746-a149-7048d0257e4e)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/34d93f5f-d3ad-481c-aaed-da98d3914f8a)
+
+
 
 10. Use the following Prompt in Joule to create a backend logic:
 
