@@ -37,8 +37,6 @@ Enhance my sample data with meaningful data. Any phone numbers must be 10 digits
 
 **This step is needed for the demo purpose. Later in the exercise, we will be scanning a Customer Loyalty Card that will have a barcode with this number.**
 
-![](./Images/251-3_Screenshot_18.png)
-
 NOTE : In case of any issues please import the Sample data from here:  [customer_loyal_aparna_Customers.csv](https://github.com/user-attachments/files/16173522/customer_loyal_aparna_Customers.csv)
 
 6. Let's continue with sample data for the Purchases. Select the **Purchases** data entity. Add 10 rows to the entity and push **Add** button
