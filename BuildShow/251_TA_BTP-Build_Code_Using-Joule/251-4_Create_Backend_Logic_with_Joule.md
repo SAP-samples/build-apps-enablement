@@ -65,7 +65,6 @@ So Joule created now following logic:
 
 9. Select **Create**. Then, choose **Application Logic** under **Open Code Editor**.
 
-![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/128633a9-12f0-4746-a149-7048d0257e4e)
 ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/34d93f5f-d3ad-481c-aaed-da98d3914f8a)
 
 
@@ -76,11 +75,12 @@ So Joule created now following logic:
 Deduct the redemption amount from the customer's total reward points and add that to his total redeemed points.
 ```
 
-![](./Images/251-4_Screenshot_34.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/402dc6f2-ec96-4e40-8544-39e5fc05e564)
+
 
 11. Accept the code created by Joule. 
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/e4341d33-bcb3-41d8-bc3b-0f3fc51d0785)
 
-![](./Images/251-4_Screenshot_35.png)
 
 Have a closer look at the generate code. It even includes some checks if the customer has enough points for the redemption.
 
@@ -90,7 +90,8 @@ Have a closer look at the generate code. It even includes some checks if the cus
 
 12. Go back to Storyboard and open Service Center
 
-![](./Images/251-4_Screenshot_36.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/7216564b-2be2-4c07-9aa6-16f23ed5491a)
+
 
 
 **[Next Module 1 - Unit 5: Add External Data Resource](./251-5_Add_External_Data_Resource.md) >**
