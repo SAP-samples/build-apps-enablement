@@ -12,7 +12,10 @@ Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_
 
 ![](./Images/251-6_UI1.jpg)
 
-2. We will start with the user interface for the data entity Purchases. Set the Display name to **Purchases** and the Description to **Manage Purchases**
+2. We will start with the user interface for the data entity Purchases.<br> Enter the following values:
+Display name: Purchases<br>
+Description: Manage Purchases<br>
+Data Source: <"your project name"> <br>
 
 ![](./Images/251-6_UI2.jpg)
 
@@ -76,6 +79,5 @@ You can now preview the UI. here is a video tutorial to preview the backend app 
 
 
 
-Now continue with the deployment.
 
-**[Next Module 1 - Unit 7: Deployment](./251-7_Deployment.md) >**
+**[Next Module 1 - Unit 7: Preiview](./251-7_Preview.md) >**
