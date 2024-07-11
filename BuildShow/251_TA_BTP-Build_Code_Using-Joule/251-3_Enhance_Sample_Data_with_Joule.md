@@ -42,7 +42,8 @@ NOTE : In case of any issues please import the Sample data from here:  [customer
 
 6. Let's continue with sample data for the Purchases. Select the **Purchases** data entity. Add 10 rows to the entity and push **Add** button
 
-![](./Images/251-3_Screenshot_19.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/569dbac3-db35-47b8-9533-b4af06909e00)
+
 
 7. Click **Enhance**. Then, use the following prompt in Joule:
 
@@ -50,8 +51,9 @@ NOTE : In case of any issues please import the Sample data from here:  [customer
 Enhance my sample data with meaningful data. Purchase value must be between 50 and 1000. Reward points is always one-tenth of the purchase value.
 ```
 
-![](./Images/251-3_Screenshot_20.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/7d29b441-38a0-4541-8426-4987c5414ca0)
 
+Hint: If the data is not correct, regenerate Joule once again / correct the data manually.
 
 8. Accept the Sample Data created by Joule.
 
