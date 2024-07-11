@@ -90,7 +90,8 @@ Have a closer look at the generate code. It even includes some checks if the cus
 
 12. Go back to Storyboard and open Service Center
 
-![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/7216564b-2be2-4c07-9aa6-16f23ed5491a)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/e0978a7f-1803-4e8c-98ed-65774c1327e9)
+
 
 
 
