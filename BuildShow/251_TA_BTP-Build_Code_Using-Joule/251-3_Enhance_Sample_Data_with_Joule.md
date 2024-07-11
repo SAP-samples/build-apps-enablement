@@ -38,6 +38,8 @@ Enhance my sample data with meaningful data. Any phone numbers must be 10 digits
 
 **This step is needed for the demo purpose. Later in the exercise, we will be scanning a Customer Loyalty Card that will have a barcode with this number.**
 
+Hint: If the data is not correct, regenerate Joule once again / correct the data manually.
+
 NOTE : In case of any technical issues please import the Sample data from here:  [customer_loyal_aparna_Customers.csv](https://github.com/user-attachments/files/16173522/customer_loyal_aparna_Customers.csv)
 
 6. Let's continue with sample data for the Purchases. Select the **Purchases** data entity. Add 10 rows to the entity and push **Add** button
@@ -61,9 +63,10 @@ NOTE : In case of any techical issues, please import the Sample data from here: 
 
 ![](./Images/251-3_Screenshot_21.png)
 
-9. Select Redemptions data entity. Add 10 rows to the entity and push **Add** button
+9. Select Redemptions data entity. Add 5 rows to the entity and push **Add** button
 
-![](./Images/251-3_Screenshot_22.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/a7064d00-9f36-4e4e-b9a9-7e3a7bbc9a8d)
+
 
 10. Click **Enhance**. Then, use the following prompt in Joule:
 
@@ -74,8 +77,9 @@ Ensure that each redeemed amount is arbitrary and between 10 and 100.
 ![](./Images/251-3_Screenshot_23.png)
 
 11. Accept the changes proposed by Joule. 
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/2f835549-63a6-4eca-ac0f-e64888beebeb)
 
-![](./Images/251-3_Screenshot_24.png)
+Hint: If the data is not correct, regenerate Joule once again / correct the data manually.
 
 NOTE : In case of any technical issues please import the Sample data from here:    [customer_loyal_aparna_Redemptions.csv](https://github.com/user-attachments/files/16174127/customer_loyal_aparna_Redemptions.csv)
 
