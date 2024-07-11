@@ -1,9 +1,9 @@
-**[Previous Module 1 - Unit 2: Create Data Entities with Joule](./251-2_Create_Data_Entities_with_Joule.md) >**
+[customer_loyal_aparna_Customers.csv](https://github.com/user-attachments/files/16173522/customer_loyal_aparna_Customers.csv)**[Previous Module 1 - Unit 2: Create Data Entities with Joule](./251-2_Create_Data_Entities_with_Joule.md) >**
 
 # Module 1 - Unit 3: Enhance Sample Data with Joule  
 
-Joule created the Data Model and Servicesand additionally some sample data.
-We will use Joule to enhance the sample data.
+Joule created the Data Model and Services, now we will use Joule once again to enhance the sample data.
+
 
 ## Enhance Sample Data
 
