@@ -11,17 +11,19 @@ Here is a video tutorial for this unit: <a href="https://video.sap.com/media/t/1
 
 1. Go to Storyboard. Click on one of the entities under Services and Open in Graphical Modeler
 
-![](./Images/251-4_Screenshot_25.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/b2db1043-2517-49f8-a0ad-9b27b5286d7a)
 
 
-2. Select Purchases entity by clicking on the title. Then, click on Add Logic
+
+2. Select Purchases entity by clicking on the title. Then, click on Add Logic.
    Note: if you can not see the Purchases entity you may have to zoom out the view.
 
-![](./Images/251-4_Screenshot_26.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/f75ceece-5d65-4b82-b14b-17d0946728f6)
+
 
 3. Leave the default value and click on **Add**
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/7dec475e-0cc0-4e4d-9a38-563c569111df)
 
-![](./Images/251-4_Screenshot_27.png)
 
 4. Under the **Standard Event** select **Create**. That means this logic will be automatically executed if a new purchase is done.
  Afterwards, go to **Application Logic** under **Open Code Editor**. This will open Joule again to create the logic for us.
