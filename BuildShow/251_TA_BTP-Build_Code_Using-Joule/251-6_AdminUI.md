@@ -42,14 +42,14 @@ Customer:
   - Display name: Customers
   - Description: Manage Customers
   - UI Application type: Template-Based Responsive Application
-  - UI Application Template: List Report Page
+  - UI Application Template: List Detail Page
   - Main Entity: Customers
 
 Redemptions:
   - Display name: Redemptions
   - Description: Manage Redemptions
   - UI Application type: Template-Based Responsive Application
-  - UI Application Template: List Report Page
+  - UI Application Template: List Detail Page
   - Main Entity: Redemptions
 
 
