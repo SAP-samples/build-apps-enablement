@@ -10,26 +10,34 @@ Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_
 
 1. Go to back to the Storyboard and add a first UI application.
 
-![](./Images/251-6_UI1.jpg)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/e8b508af-5f36-4ebc-8da6-8a65fdc8c071)
+
 
 2. We will start with the user interface for the data entity Purchases.<br> Enter the following values:
 Display name: Purchases<br>
 Description: Manage Purchases<br>
 Data Source: <"your project name"> <br>
 
-![](./Images/251-6_UI2.jpg)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/756dc227-d47d-4743-b487-f23c88b7b0a4)
+
 
 3. As we are using the browser, we will select **Template-Based Responsive Application** as UI Application type.
 
-![](./Images/251-6_UI3.jpg)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/407b5977-719d-4b15-b44e-61070819770f)
+
+
 
 4. And as an UI Application Template select **List Report Page**
 
-![](./Images/251-6_UI4.jpg)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/3406cecb-51bd-45ca-89c4-89dafdba3633)
+
+
 
 6. As a last step select the **Purchases** entity as Main entity and complete the setup. The page will be created now.
 
-![](./Images/251-6_UI5.jpg)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/ee869c9e-ec81-46d2-8466-b595e5d5a2f6)
+
+
 
 You can repeat the same with the customer and redemption entity.
 
@@ -80,4 +88,4 @@ You can now preview the UI. here is a video tutorial to preview the backend app 
 
 
 
-**[Next Module 1 - Unit 7: Preiview](./251-7_Preview.md) >**
+**[Next Module 1 - Unit 7: Preview](./251-7_Preview.md) >**

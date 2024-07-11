@@ -11,30 +11,33 @@ Here is a video tutorial for this unit: <a href="https://video.sap.com/media/t/1
 
 1. Go to Storyboard. Click on one of the entities under Services and Open in Graphical Modeler
 
-![](./Images/251-4_Screenshot_25.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/b2db1043-2517-49f8-a0ad-9b27b5286d7a)
 
 
-2. Select Purchases entity by clicking on the title. Then, click on Add Logic
+
+2. Select Purchases entity by clicking on the title. Then, click on Add Logic.
    Note: if you can not see the Purchases entity you may have to zoom out the view.
 
-![](./Images/251-4_Screenshot_26.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/f75ceece-5d65-4b82-b14b-17d0946728f6)
+
 
 3. Leave the default value and click on **Add**
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/7dec475e-0cc0-4e4d-9a38-563c569111df)
 
-![](./Images/251-4_Screenshot_27.png)
 
 4. Under the **Standard Event** select **Create**. That means this logic will be automatically executed if a new purchase is done.
  Afterwards, go to **Application Logic** under **Open Code Editor**. This will open Joule again to create the logic for us.
 
-![](./Images/251-4_Screenshot_28.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/aa1bbf4f-0205-4829-9cdd-c8b1f7586249)
+
 
 5. Use the following prompt in Joule to create a backend logic:
 
 ```code
 Reward points of each purchase will be the one tenth of the purchase value. Each purchase value will be added to the total purchase value of the related customer. Each reward points will be added to the total reward points of the related customer.
 ```
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/13214108-5629-4ea6-b5b8-a89f2db5bcf3)
 
-![](./Images/251-4_Screenshot_29.png)
 
 So Joule created now following logic:
  - Check if the customer exists
@@ -43,7 +46,8 @@ So Joule created now following logic:
 
 6. Accept the code created by Joule. 
 
-![](./Images/251-4_Screenshot_30.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/ff1b9a4e-4d90-4ac8-b5de-4273018a7923)
+
 
 
 > **Note:**
@@ -51,15 +55,19 @@ So Joule created now following logic:
 
 7. Now let's look at the Redemptions. Go to back service.cds tab. Select Redemptions entity by clicking on the title. Then, click on Add Logic
 
-![](./Images/251-4_Screenshot_31.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/234c0fae-2810-4ce2-a5d5-80da83dac2ff)
+
 
 8. Click on **Add**
 
-![](./Images/251-4_Screenshot_32.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/e5c640d8-4e09-4877-87a7-a1ff504b21df)
+
 
 9. Select **Create**. Then, choose **Application Logic** under **Open Code Editor**.
 
-![](./Images/251-4_Screenshot_33.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/34d93f5f-d3ad-481c-aaed-da98d3914f8a)
+
+
 
 10. Use the following Prompt in Joule to create a backend logic:
 
@@ -67,11 +75,12 @@ So Joule created now following logic:
 Deduct the redemption amount from the customer's total reward points and add that to his total redeemed points.
 ```
 
-![](./Images/251-4_Screenshot_34.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/402dc6f2-ec96-4e40-8544-39e5fc05e564)
+
 
 11. Accept the code created by Joule. 
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/e4341d33-bcb3-41d8-bc3b-0f3fc51d0785)
 
-![](./Images/251-4_Screenshot_35.png)
 
 Have a closer look at the generate code. It even includes some checks if the customer has enough points for the redemption.
 
@@ -81,7 +90,9 @@ Have a closer look at the generate code. It even includes some checks if the cus
 
 12. Go back to Storyboard and open Service Center
 
-![](./Images/251-4_Screenshot_36.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/e0978a7f-1803-4e8c-98ed-65774c1327e9)
+
+
 
 
 **[Next Module 1 - Unit 5: Add External Data Resource](./251-5_Add_External_Data_Resource.md) >**
