@@ -2,7 +2,7 @@
 
 # Module 2 - Unit 4: Logic for Data Variables  
 
-Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_754lgkk3">Logics for Data variables</a>
+Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_3c5lewrl">Logics for Data variables</a>
 
 1. Go to UI Canvas > Switch to Variables > Go to Data Variables > Add 2 data variables: *A_ProductBasicText* and *Customers* 
 

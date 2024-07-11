@@ -1,6 +1,9 @@
+**[Previous Module 2 - Unit 4: Logic for Data variables](./252-4_Logic_for_Data_Variables.md) >**
 
-# 
 
+# Logic for Data variables 2
+
+Here is a video tutorial for this unit. <a href="https://video.sap.com/media/t/1_r9809xrm">Logics for Data variables 2</a>
 
 1.  Go to the next page: *Redeem Points*
 
