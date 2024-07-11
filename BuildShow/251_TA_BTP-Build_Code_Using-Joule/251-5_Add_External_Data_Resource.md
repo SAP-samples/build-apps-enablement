@@ -21,11 +21,13 @@ Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_
 
 You can drop the new entity anywhere 
 
-![](./Images/251-5_Screenshot_39.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/7698dec9-0010-4411-a807-647cca800ef7)
+
 
 4. Select the data entity: **s4_product.A_ProductBasicText**
 
-![](./Images/251-5_Screenshot_40.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/b26dc3be-611c-46e9-8a4b-7bd759ef678f)
+
 
 
 
