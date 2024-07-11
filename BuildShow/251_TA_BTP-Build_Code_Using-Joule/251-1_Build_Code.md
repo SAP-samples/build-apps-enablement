@@ -36,8 +36,8 @@ Here is a video tutorial you can follow for this step <a href="https://video.sap
 
 The starting point for this tutorial is the Lobby of SAP Build, the central entry point for all SAP Build products.
 
-1. Open the lobby:
-       July 10th session: https://sap-build-academy-devtest.eu10.build.cloud.sap/lobby
+1. Open the lobby:<br><br>
+       July 10th session: https://sap-build-academy-devtest.eu10.build.cloud.sap/lobby <br><br>
        July 11th session: https://sap-build-academy-us10-dev-test.us10.build.cloud.sap/lobby
 
 3. The instructors would provide you the username and password.
