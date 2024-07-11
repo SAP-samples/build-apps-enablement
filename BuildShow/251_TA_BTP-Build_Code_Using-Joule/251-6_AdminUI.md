@@ -10,18 +10,21 @@ Here is a video tutorial for this unit <a href="https://video.sap.com/media/t/1_
 
 1. Go to back to the Storyboard and add a first UI application.
 
-![](./Images/251-6_UI1.jpg)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/e8b508af-5f36-4ebc-8da6-8a65fdc8c071)
+
 
 2. We will start with the user interface for the data entity Purchases.<br> Enter the following values:
 Display name: Purchases<br>
 Description: Manage Purchases<br>
 Data Source: <"your project name"> <br>
 
-![](./Images/251-6_UI2.jpg)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/756dc227-d47d-4743-b487-f23c88b7b0a4)
+
 
 3. As we are using the browser, we will select **Template-Based Responsive Application** as UI Application type.
 
-![](./Images/251-6_UI3.jpg)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/69373b07-5ce5-4829-b188-2e1e232c5511)
+
 
 4. And as an UI Application Template select **List Report Page**
 
