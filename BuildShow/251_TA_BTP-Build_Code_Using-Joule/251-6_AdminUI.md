@@ -80,4 +80,4 @@ You can now preview the UI. here is a video tutorial to preview the backend app 
 
 
 
-**[Next Module 1 - Unit 7: Preiview](./251-7_Preview.md) >**
+**[Next Module 1 - Unit 7: Preview](./251-7_Preview.md) >**
