@@ -26,13 +26,15 @@ Data Source: <"your project name"> <br>
 ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/69373b07-5ce5-4829-b188-2e1e232c5511)
 
 
-4. And as an UI Application Template select **List Report Page**
+4. And as an UI Application Template select **List Detail Page**
 
-![](./Images/251-6_UI4.jpg)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/41f4f7bc-bf05-4129-bdd1-2d051cd8753e)
+
 
 6. As a last step select the **Purchases** entity as Main entity and complete the setup. The page will be created now.
 
-![](./Images/251-6_UI5.jpg)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/469bc120-f01f-4ba7-bcb6-d1e8b714e817)
+
 
 You can repeat the same with the customer and redemption entity.
 
