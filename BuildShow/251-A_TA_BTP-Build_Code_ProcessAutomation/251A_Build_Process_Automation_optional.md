@@ -12,7 +12,7 @@ Module 3 :<a href="https://github.com/SAP-samples/build-apps-enablement/blob/mai
 <br><i>Verify once that you are logged in with the right user id and copy the id for use later. </i><br><br>
 ![](./Images/Image0.png)
 
-2. In the Lobby, use the search field to look for the project named PM-Bonus Redemption Process(EU). Hint: Switch to the options ‘All projects’ to find the template project. <br><br>
+2. In the Lobby, use the search field to look for the project named**PM-Bonus Redemption Process(EU)**. <br><i>Hint: Switch to the options ‘All projects’ to find the template project</i>. <br><br>
 ![](./Images/Image1.png)
 
 3. Prefix the user id (previously copied in step 1.1) and ‘Save As New’ project.<br><br>
