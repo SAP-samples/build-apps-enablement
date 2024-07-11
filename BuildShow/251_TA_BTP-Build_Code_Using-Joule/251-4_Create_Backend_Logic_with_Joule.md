@@ -28,15 +28,16 @@ Here is a video tutorial for this unit: <a href="https://video.sap.com/media/t/1
 4. Under the **Standard Event** select **Create**. That means this logic will be automatically executed if a new purchase is done.
  Afterwards, go to **Application Logic** under **Open Code Editor**. This will open Joule again to create the logic for us.
 
-![](./Images/251-4_Screenshot_28.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/aa1bbf4f-0205-4829-9cdd-c8b1f7586249)
+
 
 5. Use the following prompt in Joule to create a backend logic:
 
 ```code
 Reward points of each purchase will be the one tenth of the purchase value. Each purchase value will be added to the total purchase value of the related customer. Each reward points will be added to the total reward points of the related customer.
 ```
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/13214108-5629-4ea6-b5b8-a89f2db5bcf3)
 
-![](./Images/251-4_Screenshot_29.png)
 
 So Joule created now following logic:
  - Check if the customer exists
@@ -45,7 +46,8 @@ So Joule created now following logic:
 
 6. Accept the code created by Joule. 
 
-![](./Images/251-4_Screenshot_30.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/ff1b9a4e-4d90-4ac8-b5de-4273018a7923)
+
 
 
 > **Note:**
