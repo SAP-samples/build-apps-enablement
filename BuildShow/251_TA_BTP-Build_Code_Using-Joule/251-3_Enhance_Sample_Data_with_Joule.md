@@ -28,7 +28,8 @@ Here is video tutorial for this unit : <a href="https://video.sap.com/media/t/1_
 Enhance my sample data with meaningful data. Any phone numbers must be 10 digits. All customer numbers must be 7 digits and one customer must use the customer number 1200547. No fields may be empty. Total purchase value must be smaller than 10000 und unround. Total reward points and total redeemed reward points both must be unround and different and always sum to one-tenth of the total purchase value for each customer.
 ```
 
-![](./Images/251-3_Screenshot_16.png)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/7288a865-16b8-4ed5-aa25-6fe9986dea4d)
+
  
 4. You can see the customer names, email adresses and purchases are created. Accept the new Sample Data created by Joule. 
 
