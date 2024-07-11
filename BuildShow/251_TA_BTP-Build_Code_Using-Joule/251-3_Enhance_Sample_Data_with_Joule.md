@@ -38,7 +38,7 @@ Enhance my sample data with meaningful data. Any phone numbers must be 10 digits
 
 **This step is needed for the demo purpose. Later in the exercise, we will be scanning a Customer Loyalty Card that will have a barcode with this number.**
 
-NOTE : In case of any issues please import the Sample data from here:  [customer_loyal_aparna_Customers.csv](https://github.com/user-attachments/files/16173522/customer_loyal_aparna_Customers.csv)
+NOTE : In case of any technical issues please import the Sample data from here:  [customer_loyal_aparna_Customers.csv](https://github.com/user-attachments/files/16173522/customer_loyal_aparna_Customers.csv)
 
 6. Let's continue with sample data for the Purchases. Select the **Purchases** data entity. Add 10 rows to the entity and push **Add** button
 
@@ -51,13 +51,12 @@ NOTE : In case of any issues please import the Sample data from here:  [customer
 Enhance my sample data with meaningful data. Purchase value must be between 50 and 1000. Reward points is always one-tenth of the purchase value.
 ```
 
+8. Accept the Sample Data created by Joule.
 ![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/7d29b441-38a0-4541-8426-4987c5414ca0)
 
 Hint: If the data is not correct, regenerate Joule once again / correct the data manually.
 
-8. Accept the Sample Data created by Joule.
-
-NOTE : In case of any issues please import the Sample data from here:  [customer_loyal_aparna_Purchases.csv](https://github.com/user-attachments/files/16174118/customer_loyal_aparna_Purchases.csv)
+NOTE : In case of any techical issues, please import the Sample data from here:  [customer_loyal_aparna_Purchases.csv](https://github.com/user-attachments/files/16174118/customer_loyal_aparna_Purchases.csv)
 
 
 ![](./Images/251-3_Screenshot_21.png)
@@ -78,7 +77,7 @@ Ensure that each redeemed amount is arbitrary and between 10 and 100.
 
 ![](./Images/251-3_Screenshot_24.png)
 
-NOTE : In case of any issues please import the Sample data from here:    [customer_loyal_aparna_Redemptions.csv](https://github.com/user-attachments/files/16174127/customer_loyal_aparna_Redemptions.csv)
+NOTE : In case of any technical issues please import the Sample data from here:    [customer_loyal_aparna_Redemptions.csv](https://github.com/user-attachments/files/16174127/customer_loyal_aparna_Redemptions.csv)
 
 
 **[Next Module 1 - Unit 4: Create Backend Logic with Joule](./251-4_Create_Backend_Logic_with_Joule.md) >**
