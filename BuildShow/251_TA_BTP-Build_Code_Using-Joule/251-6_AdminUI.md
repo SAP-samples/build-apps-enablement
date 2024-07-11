@@ -23,17 +23,20 @@ Data Source: <"your project name"> <br>
 
 3. As we are using the browser, we will select **Template-Based Responsive Application** as UI Application type.
 
-![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/69373b07-5ce5-4829-b188-2e1e232c5511)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/407b5977-719d-4b15-b44e-61070819770f)
 
 
-4. And as an UI Application Template select **List Detail Page**
 
-![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/41f4f7bc-bf05-4129-bdd1-2d051cd8753e)
+4. And as an UI Application Template select **List Report Page**
+
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/3406cecb-51bd-45ca-89c4-89dafdba3633)
+
 
 
 6. As a last step select the **Purchases** entity as Main entity and complete the setup. The page will be created now.
 
-![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/469bc120-f01f-4ba7-bcb6-d1e8b714e817)
+![image](https://github.com/SAP-samples/build-apps-enablement/assets/173163567/ee869c9e-ec81-46d2-8466-b595e5d5a2f6)
+
 
 
 You can repeat the same with the customer and redemption entity.
@@ -42,14 +45,14 @@ Customer:
   - Display name: Customers
   - Description: Manage Customers
   - UI Application type: Template-Based Responsive Application
-  - UI Application Template: List Detail Page
+  - UI Application Template: List Report Page
   - Main Entity: Customers
 
 Redemptions:
   - Display name: Redemptions
   - Description: Manage Redemptions
   - UI Application type: Template-Based Responsive Application
-  - UI Application Template: List Detail Page
+  - UI Application Template: List Report Page
   - Main Entity: Redemptions
 
 
