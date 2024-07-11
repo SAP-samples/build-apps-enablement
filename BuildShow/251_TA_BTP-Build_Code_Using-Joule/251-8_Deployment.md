@@ -1,6 +1,6 @@
 **[Previous Module 1 - Unit 7: Preiview](./251-7_Preview.md) >**
 
-# Module 1 - Unit 7: Deployment  
+# Module 1 - Unit 8: Deployment  
 
 The last step in SAP Build Code is to deploy the application to CloudFoundry. This includes also that destinations are created automatically that the ODATA services can be consumed also by other tools like SAP Build Apps.
 
