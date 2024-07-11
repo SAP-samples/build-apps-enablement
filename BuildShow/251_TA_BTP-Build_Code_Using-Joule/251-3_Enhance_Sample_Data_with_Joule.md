@@ -37,7 +37,7 @@ Enhance my sample data with meaningful data. Any phone numbers must be 10 digits
 
 ![](./Images/251-3_Screenshot_18.png)
 
-NOTE : In case of any issues please import the Sample data from here: [customer_loyal_aparna_Customers.csv](https://github.com/user-attachments/files/16173522/customer_loyal_aparna_Customers.csv)
+NOTE : In case of any issues please import the Sample data from here:  [customer_loyal_aparna_Customers.csv](https://github.com/user-attachments/files/16173522/customer_loyal_aparna_Customers.csv)
 
 6. Let's continue with sample data for the Purchases. Select the **Purchases** data entity. Add 10 rows to the entity and push **Add** button
 
@@ -52,7 +52,10 @@ Enhance my sample data with meaningful data. Purchase value must be between 50 a
 ![](./Images/251-3_Screenshot_20.png)
 
 
-8. Accept the Sample Data created by Joule. 
+8. Accept the Sample Data created by Joule.
+
+NOTE : In case of any issues please import the Sample data from here:  [customer_loyal_aparna_Purchases.csv](https://github.com/user-attachments/files/16174118/customer_loyal_aparna_Purchases.csv)
+
 
 ![](./Images/251-3_Screenshot_21.png)
 
@@ -71,5 +74,8 @@ Ensure that each redeemed amount is arbitrary and between 10 and 100.
 11. Accept the changes proposed by Joule. 
 
 ![](./Images/251-3_Screenshot_24.png)
+
+NOTE : In case of any issues please import the Sample data from here:    [customer_loyal_aparna_Redemptions.csv](https://github.com/user-attachments/files/16174127/customer_loyal_aparna_Redemptions.csv)
+
 
 **[Next Module 1 - Unit 4: Create Backend Logic with Joule](./251-4_Create_Backend_Logic_with_Joule.md) >**
