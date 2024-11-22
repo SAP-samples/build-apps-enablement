@@ -68,3 +68,7 @@ Select **Formula** > **Formula**.
 10. Select **SAVE** on the top right corner of the screen to save your recent changes.
 
     ![](./Images/page_layout.png)
+
+Congratulations, its time to Test your HCM Workpermit App and Process.
+
+[Next Lesson](./4_Testing.md) >
