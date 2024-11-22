@@ -16,7 +16,7 @@ Click on **Import** icon.<br><br>
 ![](/BuildandAutomateTour2024/Images/11_4_Settings.png)
 
 5. In the pop-up, Select the **Agent Version:** tab.<br>
-In the dropdown menu of *Agent Version*, select the version that is **Local** and select your computer's operating system platform below.<br>Save and close it.<br><br>
+In the dropdown menu of **Agent Version**, select the version that is **Local** and select your computer's operating system platform below.<br>Save and close it.<br><br>
 ![](/BuildandAutomateTour2024/Images/Screenshot%202024-11-22%20at%2001.40.07.png)
 
 [Next Lesson](/BuildandAutomateTour2024/1_Build_Process_Automation/12_CreateyourProcess/1_CreateTemplate.md) >

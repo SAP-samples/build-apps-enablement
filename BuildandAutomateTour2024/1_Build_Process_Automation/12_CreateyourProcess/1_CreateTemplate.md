@@ -9,7 +9,7 @@
 2. In your new created Build Process Automation project, click on **Create** and select **Document Template**.<br><br>
 ![](./Images/12_1_create.png)
 
-3. Select ** Create a New Template** and click on **Next**.<br><br>
+3. Select **Create a New Template** and click on **Next**.<br><br>
 ![](./Images/12_2.png)
 
 4. Give a name to the template *Workpermitdocument* and select the document locally form your computer.<br><br>
