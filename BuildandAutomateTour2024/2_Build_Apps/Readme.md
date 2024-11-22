@@ -34,6 +34,5 @@ At the end of this workshop, your app will look something like this:
 - [Tutorials for SAP Build Apps](https://developers.sap.com/tutorial-navigator.html?tag=tutorial%3Atype%2Ftutorial&tag=software-product%3Atechnology-platform%2Fsap-build%2Fsap-build-apps-enterprise-edition)
 - [Developer Community for SAP Build Apps](https://community.sap.com/topics/build-apps)
 
-<!-- 
-[Next Unit](../421_BTP-CleanCore_BuildApps-Workflow/README.md) >
--->
+
+[Next Lesson](./1_Import_template.md) >
