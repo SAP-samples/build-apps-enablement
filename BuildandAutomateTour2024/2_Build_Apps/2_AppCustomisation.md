@@ -23,3 +23,5 @@ Change the Label to **Name** and open the binding menu by clicking on **X** unde
 
 7. Drag and drop a **Button** component into the editor and change the label to **Send for Approval**.<br><br>.
 ![](./Images/2_1_10.png)
+
+[Next Lesson](./3_Addprocess.md) >
